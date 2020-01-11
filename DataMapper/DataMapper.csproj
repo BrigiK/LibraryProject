@@ -5,19 +5,18 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8E2088C8-6F16-48C1-9542-ECF77A7BB730}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>LibraryProject</RootNamespace>
-    <AssemblyName>LibraryProject</AssemblyName>
+    <ProjectGuid>{485D1495-63EF-443D-8E36-B6187561CD3E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataMapper</RootNamespace>
+    <AssemblyName>DataMapper</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -27,7 +26,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,9 +40,6 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -57,37 +52,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataLayer\DataMapper\DAOFactoryMethod.cs" />
-    <Compile Include="DataLayer\DataMapper\IAuthorDataService.cs" />
-    <Compile Include="DataLayer\DataMapper\IBookDataServices.cs" />
-    <Compile Include="DataLayer\DataMapper\IDAOFactory.cs" />
-    <Compile Include="DataLayer\DataMapper\IDomainDataService.cs" />
-    <Compile Include="DataLayer\DataMapper\IEditionDataService.cs" />
-    <Compile Include="DataLayer\DataMapper\IReaderDataService.cs" />
-    <Compile Include="DataLayer\DataMapper\SqlServerDAO\LibraryContext.cs" />
-    <Compile Include="DataLayer\DataMapper\SqlServerDAO\LibraryInitializer.cs" />
-    <Compile Include="DataLayer\DataMapper\SqlServerDAO\SQLAuthorDataService.cs" />
-    <Compile Include="DataLayer\DataMapper\SqlServerDAO\SQLBookDataService.cs" />
-    <Compile Include="DataLayer\DataMapper\SqlServerDAO\SQLDomainDataService.cs" />
-    <Compile Include="DataLayer\DataMapper\SqlServerDAO\SQLEditionDataService.cs" />
-    <Compile Include="DataLayer\DataMapper\SqlServerDAO\SQLReaderDataService.cs" />
-    <Compile Include="DataLayer\DataMapper\SqlServerDAO\SQLServerDAOFactory.cs" />
-    <Compile Include="DomainLayer\DomainModel\Author.cs" />
-    <Compile Include="DomainLayer\DomainModel\Book.cs" />
-    <Compile Include="DomainLayer\DomainModel\Domain.cs" />
-    <Compile Include="DomainLayer\DomainModel\Edition.cs" />
-    <Compile Include="DomainLayer\DomainModel\Reader.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
-    </Compile>
+    <Compile Include="DAOFactoryMethod.cs" />
+    <Compile Include="IAuthorDataService.cs" />
+    <Compile Include="IBookDataServices.cs" />
+    <Compile Include="IDAOFactory.cs" />
+    <Compile Include="IDomainDataService.cs" />
+    <Compile Include="IEditionDataService.cs" />
+    <Compile Include="IReaderDataService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerDAO\LibraryContext.cs" />
+    <Compile Include="SqlServerDAO\LibraryInitializer.cs" />
+    <Compile Include="SqlServerDAO\SQLAuthorDataService.cs" />
+    <Compile Include="SqlServerDAO\SQLBookDataService.cs" />
+    <Compile Include="SqlServerDAO\SQLDomainDataService.cs" />
+    <Compile Include="SqlServerDAO\SQLEditionDataService.cs" />
+    <Compile Include="SqlServerDAO\SQLReaderDataService.cs" />
+    <Compile Include="SqlServerDAO\SQLServerDAOFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
+    <ProjectReference Include="..\DomainModel\DomainModel.csproj">
+      <Project>{98ce0823-cd5d-4eba-b498-3d0ea079bb60}</Project>
+      <Name>DomainModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
