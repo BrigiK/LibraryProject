@@ -1,9 +1,9 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="IDomainDataService.cs" company="Transilvania University of Brasov">
+// <copyright file="IDomainServices.cs" company="Transilvania University of Brasov">
 //     Author Kocs Brigitta.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace LibraryProject.DataLayer.DataMapper
+namespace ServiceLayer
 {
     using System;
     using System.Collections.Generic;
@@ -12,8 +12,8 @@ namespace LibraryProject.DataLayer.DataMapper
     using System.Threading.Tasks;
     using LibraryProject.DomainModel;
 
-    /// <summary>Domain Data Service.</summary>
-    public interface IDomainDataService
+    /// <summary>Interface for Domain Services.</summary>
+    public interface IDomainServices
     {
         /// <summary>Gets all domains.</summary>
         /// <returns>a a</returns>
@@ -26,7 +26,7 @@ namespace LibraryProject.DataLayer.DataMapper
         /// <returns>a a</returns>
         Domain GetDomainById(int id);
 
-        /// <summary>Gets the domain by name.</summary>
+        /// <summary>  Gets the domain by name.</summary>
         /// <param name="name">The name.</param>
         /// <returns>a a</returns>
         Domain GetDomainByName(string name);

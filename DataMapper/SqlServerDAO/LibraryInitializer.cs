@@ -106,35 +106,35 @@ namespace LibraryProject.DataMapper
                 {
                     Title = "Then Sings My Soul: 150 of the World's Greatest Hymn Stories",
                     Authors = new List<Author> { authors[4] },
-                    Domains = new List<Domain> { domains[1] },
+                    Domains = new List<Domain> { domains[8] },
                     Editions = new List<Edition> { editions[5] }
                 },
                 new Book
                 {
                     Title = "Who Was Leonardo Da Vinci?",
                     Authors = new List<Author> { authors[5] },
-                    Domains = new List<Domain> { domains[2] },
+                    Domains = new List<Domain> { domains[9] },
                     Editions = new List<Edition> { editions[6] }
                 },
                 new Book
                 {
                     Title = "Think and Grow Rich",
                     Authors = new List<Author> { authors[6] },
-                    Domains = new List<Domain> { domains[7] },
+                    Domains = new List<Domain> { domains[13] },
                     Editions = new List<Edition> { editions[7] }
                 },
                 new Book
                 {
                     Title = "If You Give a Mouse a Cookie",
                     Authors = new List<Author> { authors[7] },
-                    Domains = new List<Domain> { domains[10] },
+                    Domains = new List<Domain> { domains[15] },
                     Editions = new List<Edition> { editions[8] }
                 },
                 new Book
                 {
                     Title = "Head First Java : Your Brain on Java- A Learner's Guide",
                     Authors = new List<Author> { authors[8] },
-                    Domains = new List<Domain> { domains[15] },
+                    Domains = new List<Domain> { domains[19] },
                     Editions = new List<Edition> { editions[9] }
                 },
             };
@@ -160,6 +160,63 @@ namespace LibraryProject.DataMapper
             };
 
             readers.ForEach(r => context.Readers.Add(r));
+            context.SaveChanges();
+
+            var configurations = new List<Configuration>
+            {
+                new Configuration
+                {
+                    Name = "MaxDOMBook",
+                    Value = 3
+                },
+                new Configuration
+                {
+                    Name = "NrMaxBooksBorrowed",
+                    Value = 6
+                },
+                new Configuration
+                {
+                    Name = "MaxPeriodForMaxBooks",
+                    Value = 7
+                },
+                new Configuration
+                {
+                    Name = "MaxBooksOneBorrow",
+                    Value = 4
+                },
+                new Configuration
+                {
+                    Name = "MaxBooksFromSameDomain",
+                    Value = 2
+                },
+                new Configuration
+                {
+                    Name = "NrMonthsBooksSameDomain",
+                    Value = 1
+                },
+                new Configuration
+                {
+                    Name = "MaxDelayInLast3Months",
+                    Value = 10
+                },
+                new Configuration
+                {
+                    Name = "BorrowSameBookForDays",
+                    Value = 30
+                },
+                new Configuration
+                {
+                    Name = "MaxBooksOneDay",
+                    Value = 6
+                },
+                new Configuration
+                {
+                    Name = "MaxBooksToGive",
+                    Value = 20
+                }
+            };
+
+            configurations.ForEach(c => context.Configurations.Add(c));
             context.SaveChanges();
         }
     }

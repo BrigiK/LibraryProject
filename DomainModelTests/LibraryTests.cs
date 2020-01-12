@@ -6,6 +6,7 @@
 namespace LibraryTest
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using LibraryProject.DataMapper;
     using LibraryProject.DomainModel;
@@ -39,6 +40,41 @@ namespace LibraryTest
             }
 
             Assert.AreEqual(testedAuthor.Name, author.Name);
+        }
+
+        /// <summary>Tests if configuration name correct.</summary>
+        [TestMethod]
+        public void TestIfConfigNameCorrect()
+        {
+            Configuration config;
+
+            using (var context = new LibraryContext())
+            {
+                config = (from p in context.Configurations
+                                where p.Name == "MaxDOMBook"
+                                select p).Single();
+            }
+
+            Assert.AreEqual("MaxDOMBook", config.Name);
+        }
+
+        /// <summary>Tests the add empty author list to book.</summary>
+        [TestMethod]
+        public void TestAddEmptyAuthorListToBook()
+        {
+            Book book;
+
+            using (var context = new LibraryContext())
+            {
+                book = new Book
+                {
+                    Title = "A book",
+                    Authors = new List<Author>()
+                };
+
+                context.Books.Add(book);
+                context.SaveChanges();
+            }
         }
     }
 }

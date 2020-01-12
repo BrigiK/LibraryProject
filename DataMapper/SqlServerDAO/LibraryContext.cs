@@ -7,7 +7,7 @@ namespace LibraryProject.DataMapper
 {
     using System.Data.Entity;
     using System.Data.Entity.ModelConfiguration.Conventions;
-    using LibraryProject.DomainModel;
+    using DomainModel;
 
     /// <summary>The main class that coordinates Entity Framework functionality for a given data model.</summary>
     /// <seealso cref="System.Data.Entity.DbContext" />
@@ -38,6 +38,10 @@ namespace LibraryProject.DataMapper
         /// <summary>Gets or sets the readers.</summary>
         /// <value>The readers.</value>
         public DbSet<Reader> Readers { get; set; }
+
+        /// <summary>Gets or sets the configurations.</summary>
+        /// <value>The configurations.</value>
+        public DbSet<Configuration> Configurations { get; set; }
 
         /// <summary>
         /// This method is called when the model for a derived context has been initialized, but

@@ -50,6 +50,23 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
             }
         }
 
+        /// <summary>Gets the child domains.</summary>
+        /// <param name="domain">The domain.</param>
+        /// <returns>a a</returns>
+        public ICollection<Domain> GetChildDomains(Domain domain)
+        {
+            ICollection<Domain> childDomains = new List<Domain>();
+
+            using (var context = new LibraryContext())
+            {
+                childDomains = (from p in context.Domains
+                        where p.ParentDomain.ID == domain.ID
+                        select p).ToList();
+            }
+
+            return childDomains;
+        }
+
         /// <summary>Gets the domain by identifier.</summary>
         /// <param name="id">The identifier.</param>
         /// <returns>a a</returns>
@@ -58,6 +75,17 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
             using (var context = new LibraryContext())
             {
                 return context.Domains.Where(domain => domain.ID == id).SingleOrDefault();
+            }
+        }
+
+        /// <summary>Gets the domain by name.</summary>
+        /// <param name="name">The name.</param>
+        /// <returns>a a</returns>
+        public Domain GetDomainByName(string name)
+        {
+            using (var context = new LibraryContext())
+            {
+                return context.Domains.Where(domain => domain.Name == name).SingleOrDefault();
             }
         }
 

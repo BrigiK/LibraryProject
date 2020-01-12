@@ -49,5 +49,12 @@ namespace LibraryProject.DataLayer.DataMapper
         {
             get;
         }
+
+        /// <summary>Gets the configuration data service.</summary>
+        /// <value>The configuration data service.</value>
+        IConfigurationDataService ConfigurationDataService
+        {
+            get;
+        }
     }
 }

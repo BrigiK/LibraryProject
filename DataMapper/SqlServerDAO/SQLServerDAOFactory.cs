@@ -63,5 +63,15 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
                 return new SQLReaderDataService();
             }
         }
+
+        /// <summary>Gets the configuration data service.</summary>
+        /// <value>The configuration data service.</value>
+        public IConfigurationDataService ConfigurationDataService
+        {
+            get
+            {
+                return new SQLConfigurationDataService();
+            }
+        }
     }
 }

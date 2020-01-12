@@ -23,6 +23,7 @@ namespace LibraryProject.DomainModel
 
         /// <summary>Gets or sets the authors.</summary>
         /// <value>The authors.</value>
+        [Required]
         public virtual ICollection<Author> Authors { get; set; }
 
         /// <summary>Gets or sets the editions.</summary>

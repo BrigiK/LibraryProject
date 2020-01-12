@@ -80,5 +80,87 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
                 }
             }
         }
+
+        /// <summary>Book's domain contains parent domain.</summary>
+        /// <param name="book">The book.</param>
+        /// <returns>a a</returns>
+        public bool BookDomainContainsParentDomain(Book book)
+        {
+            using (var context = new LibraryContext())
+            {
+                List<Domain> domains = new List<Domain>();
+                foreach (var domain in book.Domains)
+                {
+                    domains.Add(context.Domains.Where(d => d.ID == domain.ID).Single());
+                }
+
+                foreach (Domain domain in domains)
+                {
+                    foreach (Domain d in domains)
+                    {
+                        if (d.ParentDomain != null && domain.Name.Equals(d.ParentDomain.Name))
+                        {
+                            return true;
+                        }
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>Book has only DOM domains.</summary>
+        /// <param name="book">The book.</param>
+        /// <returns>a a</returns>
+        public bool BookHasOnlyDOMDomains(Book book)
+        {
+            SQLConfigurationDataService configuration = new SQLConfigurationDataService();
+
+            if (book.Domains.Count <= configuration.GetConfiguration("MaxDOMBook").Value)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        /// <summary>Gets the books from domain.</summary>
+        /// <param name="domain">The domain.</param>
+        /// <returns>a a</returns>
+        public ICollection<Book> GetBooksFromDomain(Domain domain)
+        {
+            if (domain == null)
+            {
+                return new List<Book>();
+            }
+
+            IDomainDataService domainServices = new SQLDomainDataService();
+
+            using (var context = new LibraryContext())
+            {
+                List<Domain> domains = new List<Domain>
+                {
+                    domain
+                };
+
+                List<Book> books = new List<Book>();
+
+                while (domains.Count > 0)
+                {
+                    var currentDomain = domains[0];
+                    currentDomain = context.Domains.Where(d => d.ID == currentDomain.ID).Single();
+                    domains.RemoveAt(0);
+
+                    if (currentDomain.Books != null)
+                    {
+                        books.AddRange(currentDomain.Books);
+                    }
+
+                    domains.AddRange(domainServices.GetChildDomains(currentDomain));
+                }
+
+                return books;
+            }
+        }
     }
 }
