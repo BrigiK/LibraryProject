@@ -6,6 +6,7 @@
 
 namespace LibraryProject.DataMapper
 {
+    using System;
     using System.Collections.Generic;
     using System.Data.Entity.Validation;
     using LibraryProject.DomainModel;
@@ -158,9 +159,9 @@ namespace LibraryProject.DataMapper
             {
                 new Reader
                 {
-                    Name = "Name",
-                    Username = "uname",
-                    Password = "pwdvdvgvgrgr",
+                    Name = "Reader Name",
+                    Username = "username",
+                    Password = "Pp*4hytgf",
                     IsReader = true,
                     IsWorker = false,
                     Email = "unam@gmail.com",

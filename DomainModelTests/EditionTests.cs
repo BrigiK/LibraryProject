@@ -25,7 +25,7 @@ namespace DomainModelTests
         [TestInitialize]
         public void SetUp()
         {
-            // a valid configuration
+            // a valid edition
             edition = new Edition()
             {
                 PublisherName = "Publisher",
@@ -41,7 +41,7 @@ namespace DomainModelTests
                     Authors = new List<Author> { new Author { Name = "Robert J. Morgan" } },
                     Domains = new List<Domain> { new Domain { Name = "Painting" } },
                     Editions = new List<Edition> { new Edition { PublisherName = "First Edition", Year = 2006, Number = 1, Type = "Paperback", NumberOfPages = 544, NumberOfCopies = 4, NumberOfLectureRoomCopies = 1 } },
-                    Readers = new List<Reader> { new Reader { Name = "Joel", Username = "joey", Password = "pwd", Email = "joel@gmail.com", IsReader = true, IsWorker = false } }
+                    Readers = new List<Reader> { new Reader { Name = "Joel", Username = "joey", Password = "Pp4*jvhbevbu", Email = "joel@gmail.com", IsReader = true, IsWorker = false } }
                 }
             };
         }

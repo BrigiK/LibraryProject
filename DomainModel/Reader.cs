@@ -23,7 +23,7 @@ namespace LibraryProject.DomainModel
         [Required]
         [NotNullValidator(MessageTemplate = "Name cannot be null")]
         [StringLength(60, MinimumLength = 3)]
-        [StringLengthValidator(3, RangeBoundaryType.Inclusive, 60, RangeBoundaryType.Inclusive, MessageTemplate = "Name should have between {3} and {5} chars")]
+        [StringLengthValidator(6, RangeBoundaryType.Inclusive, 60, RangeBoundaryType.Inclusive, MessageTemplate = "Name should have between {3} and {5} chars")]
         public string Name { get; set; }
 
         /// <summary>Gets or sets the email.</summary>
@@ -45,6 +45,7 @@ namespace LibraryProject.DomainModel
         [NotNullValidator(MessageTemplate = "Password cannot be null")]
         [StringLength(30, MinimumLength = 8)]
         [StringLengthValidator(8, RangeBoundaryType.Inclusive, 30, RangeBoundaryType.Inclusive, MessageTemplate = "Password should have between {3} and {5} chars")]
+        [RegexValidator(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,30}$", MessageTemplate = "Password must contain at least one uppercase letter, one lowercase letter, one number and one special character.")]
         public string Password { get; set; }
 
         /// <summary>Gets or sets a value indicating whether this instance is worker.</summary>

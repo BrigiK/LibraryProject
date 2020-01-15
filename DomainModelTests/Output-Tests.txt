@@ -1,0 +1,1546 @@
+﻿[11-Jan-20 17:31:39 Informational] Executing test method 'LibraryTest.LibraryTests.TestIfAuthorHasName'
+[11-Jan-20 17:31:39 Informational] Executing test method 'LibraryTest.LibraryTests.TestIfAuthorHasName'
+[11-Jan-20 17:31:39 Informational] ------ Run test started ------
+[11-Jan-20 17:31:42 Informational] ========== Run test finished: 1 run (0:00:03.1176516) ==========
+[11-Jan-20 17:33:16 Informational] ------ Run test started ------
+[11-Jan-20 17:33:39 Informational] ========== Run test finished: 1 run (0:00:22.9606806) ==========
+[11-Jan-20 17:35:30 Informational] ------ Run test started ------
+[11-Jan-20 17:35:52 Informational] ========== Run test finished: 1 run (0:00:22.5948173) ==========
+[11-Jan-20 17:36:07 Informational] ------ Run test started ------
+[11-Jan-20 17:36:14 Informational] ========== Run test finished: 1 run (0:00:07.4653866) ==========
+[11-Jan-20 17:39:57 Informational] ------ Run test started ------
+[11-Jan-20 17:40:03 Informational] ========== Run test finished: 1 run (0:00:06.0274478) ==========
+[11-Jan-20 17:41:39 Warning] Build failed or it was cancelled.
+[11-Jan-20 18:02:20 Informational] ------ Run test started ------
+[11-Jan-20 18:02:26 Informational] ========== Run test finished: 1 run (0:00:05.9239587) ==========
+[11-Jan-20 18:02:42 Informational] ------ Discover test started ------
+[11-Jan-20 18:02:42 Informational] ========== Discover test finished: 1 found (0:00:00.8140637) ==========
+[11-Jan-20 18:02:43 Informational] ------ Discover test started ------
+[11-Jan-20 18:02:43 Informational] ========== Discover test finished: 1 found (0:00:00.7154333) ==========
+[11-Jan-20 18:02:43 Informational] ------ Run test started ------
+[11-Jan-20 18:02:49 Informational] ========== Run test finished: 1 run (0:00:06.1050446) ==========
+[11-Jan-20 18:04:11 Informational] ------ Discover test started ------
+[11-Jan-20 18:04:12 Informational] ========== Discover test finished: 1 found (0:00:00.6442769) ==========
+[11-Jan-20 18:04:12 Informational] ------ Discover test started ------
+[11-Jan-20 18:04:13 Informational] ========== Discover test finished: 1 found (0:00:00.7757242) ==========
+[11-Jan-20 18:04:13 Informational] ------ Run test started ------
+[11-Jan-20 18:04:18 Informational] ========== Run test finished: 1 run (0:00:05.5645861) ==========
+[11-Jan-20 21:27:56 Error] LoadProjectIdsAsync: Unable to fetch new VsProject after the original was Disposed
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<TryProjectActionAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<<get_ProjectOutput>b__30_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.get_ProjectOutput()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_1.<GetProjectIdsFromFilesAsync>b__2(ProjectDescriptor p)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<GetProjectIdsFromFilesAsync>g__FindOrQueue|1(TestFileDescriptor tfd, Queue`1 unmatched)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<<GetProjectIdsFromFilesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.<JoinAsync>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<GetProjectIdsFromFilesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<LoadProjectIdsAsync>d__33.MoveNext()
+[11-Jan-20 21:31:01 Error] LoadProjectIdsAsync: Unable to fetch new VsProject after the original was Disposed
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<TryProjectActionAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<<get_ProjectOutput>b__30_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.get_ProjectOutput()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_1.<GetProjectIdsFromFilesAsync>b__2(ProjectDescriptor p)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<GetProjectIdsFromFilesAsync>g__FindOrQueue|1(TestFileDescriptor tfd, Queue`1 unmatched)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<<GetProjectIdsFromFilesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.<JoinAsync>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<GetProjectIdsFromFilesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<LoadProjectIdsAsync>d__33.MoveNext()
+[11-Jan-20 21:44:39 Informational] ------ Discover test started ------
+[11-Jan-20 21:44:39 Error] System.InvalidOperationException: An error occurred while reading file 'D:\Personal\Facultate\2. Master\Anul I, sem. I\C#\LibraryProject\DomainModel\packages.config': Data at the root level is invalid. Line 1, position 1.
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetPackagesConfig()
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetInstalledPackagesList()
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetInstalledPackagesAsync(CancellationToken token)
+   at NuGet.ProjectManagement.MSBuildNuGetProject.GetInstalledPackagesAsync(CancellationToken token)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass7_0.<<GetInstalledPackages>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.GetInstalledPackages()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.UnitTestExtensionDiscoverer.GetAllEnabledExtensions(ILogger log)
+[11-Jan-20 21:44:41 Error] System.InvalidOperationException: An error occurred while reading file 'D:\Personal\Facultate\2. Master\Anul I, sem. I\C#\LibraryProject\DomainModel\packages.config': Data at the root level is invalid. Line 1, position 1.
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetPackagesConfig()
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetInstalledPackagesList()
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetInstalledPackagesAsync(CancellationToken token)
+   at NuGet.ProjectManagement.MSBuildNuGetProject.GetInstalledPackagesAsync(CancellationToken token)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass7_0.<<GetInstalledPackages>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.GetInstalledPackages()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.UnitTestExtensionDiscoverer.GetAllEnabledExtensions(ILogger log)
+[11-Jan-20 21:44:41 Error] LoadProjectIdsAsync: Unable to fetch new VsProject after the original was Disposed
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<TryProjectActionAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<<get_ProjectOutput>b__30_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.get_ProjectOutput()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_1.<GetProjectIdsFromFilesAsync>b__2(ProjectDescriptor p)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<GetProjectIdsFromFilesAsync>g__FindOrQueue|1(TestFileDescriptor tfd, Queue`1 unmatched)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<<GetProjectIdsFromFilesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.<JoinAsync>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<GetProjectIdsFromFilesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<LoadProjectIdsAsync>d__33.MoveNext()
+[11-Jan-20 21:44:41 Informational] ========== Discover test finished: 3 found (0:00:02.6220128) ==========
+[11-Jan-20 21:44:41 Informational] ------ Discover test started ------
+[11-Jan-20 21:44:41 Error] System.InvalidOperationException: An error occurred while reading file 'D:\Personal\Facultate\2. Master\Anul I, sem. I\C#\LibraryProject\DomainModel\packages.config': Data at the root level is invalid. Line 1, position 1.
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetPackagesConfig()
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetInstalledPackagesList()
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetInstalledPackagesAsync(CancellationToken token)
+   at NuGet.ProjectManagement.MSBuildNuGetProject.GetInstalledPackagesAsync(CancellationToken token)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass7_0.<<GetInstalledPackages>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.GetInstalledPackages()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.UnitTestExtensionDiscoverer.GetAllEnabledExtensions(ILogger log)
+[11-Jan-20 21:44:42 Error] System.InvalidOperationException: An error occurred while reading file 'D:\Personal\Facultate\2. Master\Anul I, sem. I\C#\LibraryProject\DomainModel\packages.config': Data at the root level is invalid. Line 1, position 1.
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetPackagesConfig()
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetInstalledPackagesList()
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetInstalledPackagesAsync(CancellationToken token)
+   at NuGet.ProjectManagement.MSBuildNuGetProject.GetInstalledPackagesAsync(CancellationToken token)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass7_0.<<GetInstalledPackages>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.GetInstalledPackages()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.UnitTestExtensionDiscoverer.GetAllEnabledExtensions(ILogger log)
+[11-Jan-20 21:44:42 Informational] ========== Discover test finished: 3 found (0:00:01.2098553) ==========
+[11-Jan-20 21:44:42 Informational] ------ Run test started ------
+[11-Jan-20 21:44:43 Error] System.InvalidOperationException: An error occurred while reading file 'D:\Personal\Facultate\2. Master\Anul I, sem. I\C#\LibraryProject\DomainModel\packages.config': Data at the root level is invalid. Line 1, position 1.
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetPackagesConfig()
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetInstalledPackagesList()
+   at NuGet.ProjectManagement.PackagesConfigNuGetProject.GetInstalledPackagesAsync(CancellationToken token)
+   at NuGet.ProjectManagement.MSBuildNuGetProject.GetInstalledPackagesAsync(CancellationToken token)
+   at NuGet.VisualStudio.VsPackageInstallerServices.<>c__DisplayClass7_0.<<GetInstalledPackages>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTask`1.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.Threading.JoinableTaskFactory.Run[T](Func`1 asyncMethod, JoinableTaskCreationOptions creationOptions)
+   at NuGet.VisualStudio.VsPackageInstallerServices.GetInstalledPackages()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.UnitTestExtensionDiscoverer.GetAllEnabledExtensions(ILogger log)
+[11-Jan-20 21:44:56 Informational] ========== Run test finished: 3 run (0:00:13.6763161) ==========
+[11-Jan-20 21:48:45 Informational] ------ Discover test started ------
+[11-Jan-20 21:48:45 Informational] ========== Discover test finished: 0 found (0:00:00.5626549) ==========
+[11-Jan-20 21:50:43 Informational] ------ Discover test started ------
+[11-Jan-20 21:50:44 Informational] ========== Discover test finished: 0 found (0:00:00.4790154) ==========
+[11-Jan-20 21:52:58 Informational] ------ Discover test started ------
+[11-Jan-20 21:52:58 Informational] ========== Discover test finished: 0 found (0:00:00.5252347) ==========
+[11-Jan-20 21:53:49 Informational] ------ Discover test started ------
+[11-Jan-20 21:53:51 Informational] ========== Discover test finished: 2 found (0:00:01.5525353) ==========
+[11-Jan-20 21:53:51 Informational] ------ Discover test started ------
+[11-Jan-20 21:53:52 Informational] ========== Discover test finished: 2 found (0:00:01.0132415) ==========
+[11-Jan-20 21:53:52 Informational] ------ Run test started ------
+[11-Jan-20 21:53:54 Informational] ========== Run test finished: 2 run (0:00:01.6368169) ==========
+[11-Jan-20 21:57:59 Informational] ------ Discover test started ------
+[11-Jan-20 21:58:00 Informational] ========== Discover test finished: 1 found (0:00:01.1382851) ==========
+[11-Jan-20 21:58:01 Informational] ------ Discover test started ------
+[11-Jan-20 21:58:01 Informational] ========== Discover test finished: 1 found (0:00:00.694591) ==========
+[11-Jan-20 21:58:01 Informational] ------ Run test started ------
+[11-Jan-20 21:58:03 Informational] ========== Run test finished: 1 run (0:00:01.5933229) ==========
+[11-Jan-20 21:58:43 Informational] ------ Discover test started ------
+[11-Jan-20 21:58:44 Informational] ========== Discover test finished: 1 found (0:00:00.7934053) ==========
+[11-Jan-20 21:58:44 Informational] ------ Discover test started ------
+[11-Jan-20 21:58:45 Informational] ========== Discover test finished: 1 found (0:00:00.8777239) ==========
+[11-Jan-20 21:58:45 Informational] ------ Run test started ------
+[11-Jan-20 21:58:50 Informational] ========== Run test finished: 1 run (0:00:05.7967421) ==========
+[12-Jan-20 14:46:53 Informational] ------ Run test started ------
+[12-Jan-20 14:46:57 Informational] ========== Run test finished: 1 run (0:00:04.1895102) ==========
+[12-Jan-20 15:33:24 Informational] ------ Run test started ------
+[12-Jan-20 15:33:28 Informational] ========== Run test finished: 1 run (0:00:03.6785615) ==========
+[12-Jan-20 15:35:14 Informational] ------ Run test started ------
+[12-Jan-20 15:35:21 Informational] ========== Run test finished: 1 run (0:00:06.6458829) ==========
+[12-Jan-20 15:37:09 Informational] ------ Run test started ------
+[12-Jan-20 15:37:18 Informational] ========== Run test finished: 1 run (0:00:08.8502504) ==========
+[12-Jan-20 16:26:22 Informational] ------ Run test started ------
+[12-Jan-20 16:26:49 Informational] ========== Run test finished: 1 run (0:00:26.9312021) ==========
+[12-Jan-20 16:27:45 Informational] Executing test method 'LibraryTest.LibraryTests.TestIfConfigNameCorrect'
+[12-Jan-20 16:27:45 Informational] Executing test method 'LibraryTest.LibraryTests.TestIfConfigNameCorrect'
+[12-Jan-20 16:27:45 Informational] ------ Run test started ------
+[12-Jan-20 16:27:52 Informational] ========== Run test finished: 1 run (0:00:06.7363885) ==========
+[12-Jan-20 16:27:59 Informational] ------ Run test started ------
+[12-Jan-20 16:28:06 Informational] ========== Run test finished: 1 run (0:00:06.7191568) ==========
+[12-Jan-20 17:48:48 Informational] Executing test method 'LibraryTest.LibraryTests.TestAddEmptyAuthorListToBook'
+[12-Jan-20 17:48:49 Informational] Executing test method 'LibraryTest.LibraryTests.TestAddEmptyAuthorListToBook'
+[12-Jan-20 17:48:49 Informational] ------ Run test started ------
+[12-Jan-20 17:48:50 Warning] No test matches the given testcase filter `FullyQualifiedName=LibraryTest.LibraryTests.TestAddEmptyAuthorListToBook` in D:\Personal\Facultate\2. Master\Anul I, sem. I\C#\LibraryProject\DomainModelTests\bin\Debug\DomainModelTests.dll
+[12-Jan-20 17:48:50 Informational] ========== Run test finished: 0 run (0:00:01.346254) ==========
+[12-Jan-20 17:49:35 Informational] Executing test method 'LibraryTest.LibraryTests.TestAddEmptyAuthorListToBook'
+[12-Jan-20 17:49:35 Informational] Executing test method 'LibraryTest.LibraryTests.TestAddEmptyAuthorListToBook'
+[12-Jan-20 17:49:35 Informational] ------ Run test started ------
+[12-Jan-20 17:49:41 Informational] ========== Run test finished: 1 run (0:00:06.0717855) ==========
+[12-Jan-20 17:51:33 Informational] Executing test method 'LibraryTest.LibraryTests.TestAddEmptyAuthorListToBook'
+[12-Jan-20 17:51:33 Informational] ------ Run test started ------
+[12-Jan-20 17:51:39 Informational] ========== Run test finished: 1 run (0:00:05.0786259) ==========
+[12-Jan-20 17:52:55 Informational] ------ Run test started ------
+[12-Jan-20 17:52:56 Informational] ========== Run test finished: 1 run (0:00:01.1628225) ==========
+[12-Jan-20 17:54:46 Informational] ------ Discover test started ------
+[12-Jan-20 17:54:48 Informational] ========== Discover test finished: 1 found (0:00:01.4986599) ==========
+[12-Jan-20 17:54:48 Informational] ------ Discover test started ------
+[12-Jan-20 17:54:49 Informational] ========== Discover test finished: 1 found (0:00:00.9673898) ==========
+[12-Jan-20 17:54:49 Informational] ------ Run test started ------
+[12-Jan-20 17:54:50 Informational] ========== Run test finished: 1 run (0:00:00.9068616) ==========
+[12-Jan-20 17:54:58 Informational] ------ Discover test started ------
+[12-Jan-20 17:54:59 Error] LoadProjectIdsAsync: Unable to fetch new VsProject after the original was Disposed
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<TryProjectActionAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<<get_ProjectOutput>b__30_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.get_ProjectOutput()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_1.<GetProjectIdsFromFilesAsync>b__2(ProjectDescriptor p)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<GetProjectIdsFromFilesAsync>g__FindOrQueue|1(TestFileDescriptor tfd, Queue`1 unmatched)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<<GetProjectIdsFromFilesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.<JoinAsync>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<GetProjectIdsFromFilesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<LoadProjectIdsAsync>d__33.MoveNext()
+[12-Jan-20 17:54:59 Informational] ========== Discover test finished: 3 found (0:00:00.613475) ==========
+[12-Jan-20 17:54:59 Informational] ------ Discover test started ------
+[12-Jan-20 17:55:00 Informational] ========== Discover test finished: 3 found (0:00:00.7041154) ==========
+[12-Jan-20 17:55:00 Informational] ------ Run test started ------
+[12-Jan-20 17:55:06 Informational] ========== Run test finished: 3 run (0:00:05.7912373) ==========
+[12-Jan-20 17:55:16 Informational] ------ Discover test started ------
+[12-Jan-20 17:55:17 Informational] ========== Discover test finished: 3 found (0:00:00.7300812) ==========
+[12-Jan-20 17:55:17 Informational] ------ Discover test started ------
+[12-Jan-20 17:55:17 Informational] ========== Discover test finished: 3 found (0:00:00.7226777) ==========
+[12-Jan-20 17:55:17 Informational] ------ Run test started ------
+[12-Jan-20 17:55:25 Informational] ========== Run test finished: 3 run (0:00:07.0763188) ==========
+[12-Jan-20 17:55:43 Informational] ------ Discover test started ------
+[12-Jan-20 17:55:43 Informational] ========== Discover test finished: 3 found (0:00:00.8012817) ==========
+[12-Jan-20 17:55:43 Informational] ------ Discover test started ------
+[12-Jan-20 17:55:44 Informational] ========== Discover test finished: 3 found (0:00:00.9256538) ==========
+[12-Jan-20 17:55:44 Informational] ------ Run test started ------
+[12-Jan-20 17:55:50 Informational] ========== Run test finished: 3 run (0:00:05.8860418) ==========
+[12-Jan-20 19:25:40 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetChildDomains'
+[12-Jan-20 19:25:40 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetChildDomains'
+[12-Jan-20 19:25:42 Informational] ------ Run test started ------
+[12-Jan-20 19:25:43 Informational] ========== Run test finished: 1 run (0:00:01.8013998) ==========
+[12-Jan-20 19:25:50 Informational] ------ Discover test started ------
+[12-Jan-20 19:25:51 Informational] ========== Discover test finished: 3 found (0:00:00.8954624) ==========
+[12-Jan-20 19:25:51 Informational] ------ Discover test started ------
+[12-Jan-20 19:25:52 Informational] ========== Discover test finished: 3 found (0:00:00.8149909) ==========
+[12-Jan-20 19:25:52 Informational] ------ Run test started ------
+[12-Jan-20 19:25:58 Informational] ========== Run test finished: 3 run (0:00:06.4983096) ==========
+[12-Jan-20 19:28:37 Informational] ------ Run test started ------
+[12-Jan-20 19:28:38 Informational] ========== Run test finished: 1 run (0:00:00.9265477) ==========
+[12-Jan-20 19:28:53 Informational] ------ Discover test started ------
+[12-Jan-20 19:28:54 Informational] ========== Discover test finished: 1 found (0:00:00.5993968) ==========
+[12-Jan-20 19:28:54 Informational] ------ Discover test started ------
+[12-Jan-20 19:28:55 Informational] ========== Discover test finished: 1 found (0:00:00.6981459) ==========
+[12-Jan-20 19:28:55 Informational] ------ Run test started ------
+[12-Jan-20 19:28:56 Informational] ========== Run test finished: 1 run (0:00:00.9695626) ==========
+[12-Jan-20 19:37:36 Informational] ------ Run test started ------
+[12-Jan-20 19:38:03 Error] The active test run was aborted. Reason: 
+[12-Jan-20 19:38:03 Informational] ========== Run test finished: 0 run (0:00:26.8704581) ==========
+[12-Jan-20 19:38:25 Informational] ------ Run test started ------
+[12-Jan-20 19:38:26 Informational] ========== Run test finished: 1 run (0:00:00.9843656) ==========
+[12-Jan-20 19:38:47 Informational] ------ Run test started ------
+[12-Jan-20 19:43:49 Error] The active test run was aborted. Reason: 
+[12-Jan-20 19:43:49 Informational] ========== Run test finished: 0 run (0:05:02.6306047) ==========
+[12-Jan-20 19:43:54 Informational] ------ Run test started ------
+[12-Jan-20 19:44:08 Error] The active test run was aborted. Reason: 
+[12-Jan-20 19:44:08 Informational] ========== Run test finished: 0 run (0:00:14.2003748) ==========
+[12-Jan-20 19:44:16 Informational] ------ Run test started ------
+[12-Jan-20 19:45:03 Error] The active test run was aborted. Reason: 
+[12-Jan-20 19:45:03 Informational] ========== Run test finished: 0 run (0:00:47.1929297) ==========
+[12-Jan-20 19:46:26 Informational] ------ Run test started ------
+[12-Jan-20 19:46:41 Error] The active test run was aborted. Reason: 
+[12-Jan-20 19:46:41 Informational] ========== Run test finished: 0 run (0:00:15.4281832) ==========
+[12-Jan-20 19:47:44 Informational] ------ Run test started ------
+[12-Jan-20 19:47:57 Error] The active test run was aborted. Reason: 
+[12-Jan-20 19:47:57 Informational] ========== Run test finished: 0 run (0:00:12.3120505) ==========
+[12-Jan-20 19:48:28 Informational] ------ Run test started ------
+[12-Jan-20 19:48:30 Informational] ========== Run test finished: 1 run (0:00:01.6810759) ==========
+[12-Jan-20 19:49:11 Informational] ------ Run test started ------
+[12-Jan-20 19:49:11 Error] An exception occurred while invoking executor 'executor://mstestadapter/v2': Could not load file or assembly 'Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The system cannot find the file specified.
+[12-Jan-20 19:49:12 Informational] ========== Run test finished: 0 run (0:00:00.7949069) ==========
+[12-Jan-20 19:49:29 Informational] ------ Run test started ------
+[12-Jan-20 19:49:35 Informational] ========== Run test finished: 1 run (0:00:05.5809387) ==========
+[12-Jan-20 19:49:46 Informational] ------ Run test started ------
+[12-Jan-20 19:49:52 Informational] ========== Run test finished: 3 run (0:00:05.9411437) ==========
+[12-Jan-20 19:50:15 Informational] ------ Discover test started ------
+[12-Jan-20 19:50:16 Informational] ========== Discover test finished: 1 found (0:00:01.3630459) ==========
+[12-Jan-20 19:50:16 Informational] ------ Discover test started ------
+[12-Jan-20 19:50:17 Informational] ========== Discover test finished: 1 found (0:00:00.8401421) ==========
+[12-Jan-20 19:50:17 Informational] ------ Run test started ------
+[12-Jan-20 19:50:19 Informational] ========== Run test finished: 1 run (0:00:01.7428784) ==========
+[12-Jan-20 19:50:51 Informational] ------ Run test started ------
+[12-Jan-20 19:50:52 Informational] ========== Run test finished: 1 run (0:00:01.0773979) ==========
+[12-Jan-20 19:51:21 Informational] ------ Run test started ------
+[12-Jan-20 19:51:23 Informational] ========== Run test finished: 1 run (0:00:02.7480834) ==========
+[12-Jan-20 19:51:36 Informational] ------ Run test started ------
+[12-Jan-20 19:51:40 Informational] ========== Run test finished: 1 run (0:00:03.8148303) ==========
+[12-Jan-20 19:52:13 Informational] ------ Run test started ------
+[12-Jan-20 19:52:15 Informational] ========== Run test finished: 1 run (0:00:01.7067001) ==========
+[12-Jan-20 19:53:24 Informational] ------ Discover test started ------
+[12-Jan-20 19:53:26 Informational] ========== Discover test finished: 4 found (0:00:01.2572851) ==========
+[12-Jan-20 19:53:26 Informational] ------ Discover test started ------
+[12-Jan-20 19:53:27 Informational] ========== Discover test finished: 4 found (0:00:01.0817245) ==========
+[12-Jan-20 19:53:27 Informational] ------ Run test started ------
+[12-Jan-20 19:53:33 Informational] ========== Run test finished: 4 run (0:00:06.578197) ==========
+[12-Jan-20 19:53:49 Informational] ------ Run test started ------
+[12-Jan-20 19:53:55 Informational] ========== Run test finished: 1 run (0:00:05.4964649) ==========
+[12-Jan-20 19:54:07 Informational] ------ Run test started ------
+[12-Jan-20 19:54:58 Error] The active test run was aborted. Reason: 
+[12-Jan-20 19:54:58 Informational] ========== Run test finished: 0 run (0:00:50.8454857) ==========
+[12-Jan-20 20:00:40 Informational] ------ Run test started ------
+[12-Jan-20 20:01:13 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:01:13 Informational] ========== Run test finished: 0 run (0:00:32.6473297) ==========
+[12-Jan-20 20:01:50 Informational] ------ Run test started ------
+[12-Jan-20 20:01:56 Informational] ========== Run test finished: 1 run (0:00:06.014584) ==========
+[12-Jan-20 20:02:01 Informational] ------ Run test started ------
+[12-Jan-20 20:02:32 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:02:32 Informational] ========== Run test finished: 0 run (0:00:31.0704003) ==========
+[12-Jan-20 20:03:29 Informational] ------ Run test started ------
+[12-Jan-20 20:03:40 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:03:40 Informational] ========== Run test finished: 0 run (0:00:11.3160172) ==========
+[12-Jan-20 20:04:08 Informational] ------ Run test started ------
+[12-Jan-20 20:05:22 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:05:22 Informational] ========== Run test finished: 0 run (0:01:14.4394192) ==========
+[12-Jan-20 20:05:58 Informational] ------ Discover test started ------
+[12-Jan-20 20:05:59 Informational] ========== Discover test finished: 4 found (0:00:01.0935815) ==========
+[12-Jan-20 20:05:59 Informational] ------ Discover test started ------
+[12-Jan-20 20:06:00 Informational] ========== Discover test finished: 4 found (0:00:00.763258) ==========
+[12-Jan-20 20:06:00 Informational] ------ Run test started ------
+[12-Jan-20 20:06:27 Informational] ========== Run test finished: 4 run (0:00:26.9602926) ==========
+[12-Jan-20 20:06:44 Informational] ------ Run test started ------
+[12-Jan-20 20:07:06 Informational] ========== Run test finished: 4 run (0:00:21.5804874) ==========
+[12-Jan-20 20:07:17 Informational] ------ Run test started ------
+[12-Jan-20 20:12:28 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:12:28 Informational] ========== Run test finished: 0 run (0:05:10.9896144) ==========
+[12-Jan-20 20:12:45 Informational] ------ Run test started ------
+[12-Jan-20 20:13:19 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:13:19 Informational] ========== Run test finished: 0 run (0:00:33.9117552) ==========
+[12-Jan-20 20:13:30 Informational] ------ Run test started ------
+[12-Jan-20 20:14:34 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:14:34 Informational] ========== Run test finished: 0 run (0:01:03.6702309) ==========
+[12-Jan-20 20:20:21 Informational] ------ Run test started ------
+[12-Jan-20 20:20:42 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:20:42 Informational] ========== Run test finished: 0 run (0:00:20.8632609) ==========
+[12-Jan-20 20:28:42 Informational] ------ Run test started ------
+[12-Jan-20 20:28:48 Informational] ========== Run test finished: 1 run (0:00:05.9441142) ==========
+[12-Jan-20 20:29:19 Informational] ------ Run test started ------
+[12-Jan-20 20:29:25 Informational] ========== Run test finished: 1 run (0:00:05.8231946) ==========
+[12-Jan-20 20:29:43 Informational] ------ Run test started ------
+[12-Jan-20 20:30:28 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:30:28 Informational] ========== Run test finished: 0 run (0:00:44.1271801) ==========
+[12-Jan-20 20:35:10 Informational] ------ Run test started ------
+[12-Jan-20 20:35:16 Informational] ========== Run test finished: 1 run (0:00:05.74525) ==========
+[12-Jan-20 20:35:25 Informational] ------ Run test started ------
+[12-Jan-20 20:35:33 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:35:34 Informational] ========== Run test finished: 0 run (0:00:08.4191483) ==========
+[12-Jan-20 20:35:57 Informational] ------ Run test started ------
+[12-Jan-20 20:36:03 Informational] ========== Run test finished: 1 run (0:00:05.924803) ==========
+[12-Jan-20 20:51:39 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookDomainNotContainsParentDomain'
+[12-Jan-20 20:51:39 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookDomainNotContainsParentDomain'
+[12-Jan-20 20:51:39 Informational] ------ Run test started ------
+[12-Jan-20 20:51:40 Informational] ========== Run test finished: 1 run (0:00:01.3920766) ==========
+[12-Jan-20 20:52:00 Informational] ------ Run test started ------
+[12-Jan-20 20:52:41 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:52:41 Informational] ========== Run test finished: 0 run (0:00:41.3235226) ==========
+[12-Jan-20 20:52:50 Informational] ------ Run test started ------
+[12-Jan-20 20:54:28 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:54:28 Informational] ========== Run test finished: 0 run (0:01:37.56) ==========
+[12-Jan-20 20:54:50 Informational] ------ Run test started ------
+[12-Jan-20 20:54:51 Informational] ========== Run test finished: 1 run (0:00:01.2682178) ==========
+[12-Jan-20 20:54:59 Informational] ------ Run test started ------
+[12-Jan-20 20:55:47 Error] The active test run was aborted. Reason: 
+[12-Jan-20 20:55:47 Informational] ========== Run test finished: 0 run (0:00:47.2994502) ==========
+[12-Jan-20 21:05:03 Informational] ------ Run test started ------
+[12-Jan-20 21:05:04 Informational] ========== Run test finished: 1 run (0:00:01.0164135) ==========
+[12-Jan-20 21:05:51 Informational] ------ Run test started ------
+[12-Jan-20 21:05:52 Informational] ========== Run test finished: 1 run (0:00:00.9025854) ==========
+[12-Jan-20 21:09:15 Informational] ------ Run test started ------
+[12-Jan-20 21:09:21 Informational] ========== Run test finished: 1 run (0:00:05.8257918) ==========
+[12-Jan-20 21:15:19 Informational] ------ Discover test started ------
+[12-Jan-20 21:15:20 Informational] ========== Discover test finished: 5 found (0:00:01.0494726) ==========
+[12-Jan-20 21:15:20 Informational] ------ Discover test started ------
+[12-Jan-20 21:15:21 Informational] ========== Discover test finished: 5 found (0:00:00.9485333) ==========
+[12-Jan-20 21:15:21 Informational] ------ Run test started ------
+[12-Jan-20 21:15:34 Informational] ========== Run test finished: 5 run (0:00:12.268919) ==========
+[12-Jan-20 21:16:53 Informational] ------ Run test started ------
+[12-Jan-20 21:16:59 Informational] ========== Run test finished: 1 run (0:00:05.9276813) ==========
+[12-Jan-20 21:30:31 Informational] ------ Run test started ------
+[12-Jan-20 21:30:37 Informational] ========== Run test finished: 1 run (0:00:05.8119028) ==========
+[12-Jan-20 21:43:59 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookHasOnlyDOMDomains'
+[12-Jan-20 21:43:59 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookHasOnlyDOMDomains'
+[12-Jan-20 21:43:59 Informational] ------ Run test started ------
+[12-Jan-20 21:44:06 Informational] ========== Run test finished: 1 run (0:00:06.8724215) ==========
+[12-Jan-20 21:44:50 Informational] ------ Run test started ------
+[12-Jan-20 21:46:38 Error] The active test run was aborted. Reason: 
+[12-Jan-20 21:46:38 Informational] ========== Run test finished: 0 run (0:01:48.8273181) ==========
+[12-Jan-20 21:46:56 Informational] ------ Run test started ------
+[12-Jan-20 21:47:02 Informational] ========== Run test finished: 1 run (0:00:05.7845913) ==========
+[12-Jan-20 21:48:46 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookDomainContainsParentDomain'
+[12-Jan-20 21:48:46 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookDomainContainsParentDomain'
+[12-Jan-20 21:48:46 Informational] ------ Run test started ------
+[12-Jan-20 21:48:52 Informational] ========== Run test finished: 1 run (0:00:06.0778533) ==========
+[12-Jan-20 21:50:30 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookHasOnlyDOMDomains'
+[12-Jan-20 21:50:30 Informational] ------ Run test started ------
+[12-Jan-20 21:50:37 Informational] ========== Run test finished: 1 run (0:00:07.4654769) ==========
+[12-Jan-20 21:51:07 Informational] ------ Run test started ------
+[12-Jan-20 21:51:13 Informational] ========== Run test finished: 4 run (0:00:06.1534599) ==========
+[12-Jan-20 21:51:44 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookHasMoreThanDOMDomains'
+[12-Jan-20 21:51:44 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookHasMoreThanDOMDomains'
+[12-Jan-20 21:51:44 Informational] ------ Run test started ------
+[12-Jan-20 21:51:50 Informational] ========== Run test finished: 1 run (0:00:06.0237047) ==========
+[12-Jan-20 22:02:00 Warning] Build failed or it was cancelled.
+[12-Jan-20 22:02:37 Warning] Build failed or it was cancelled.
+[12-Jan-20 22:03:14 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookHasLessThanDOMDomains'
+[12-Jan-20 22:03:14 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestBookHasLessThanDOMDomains'
+[12-Jan-20 22:03:14 Informational] ------ Run test started ------
+[12-Jan-20 22:03:21 Informational] ========== Run test finished: 1 run (0:00:06.3715594) ==========
+[12-Jan-20 22:44:05 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromDomain'
+[12-Jan-20 22:44:05 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromDomain'
+[12-Jan-20 22:44:05 Informational] ------ Run test started ------
+[12-Jan-20 22:44:11 Informational] ========== Run test finished: 1 run (0:00:06.0502624) ==========
+[12-Jan-20 22:44:28 Informational] ------ Run test started ------
+[12-Jan-20 22:45:29 Error] The active test run was aborted. Reason: 
+[12-Jan-20 22:45:29 Informational] ========== Run test finished: 0 run (0:01:00.8648081) ==========
+[12-Jan-20 22:46:13 Informational] ------ Run test started ------
+[12-Jan-20 22:49:02 Error] The active test run was aborted. Reason: 
+[12-Jan-20 22:49:02 Informational] ========== Run test finished: 0 run (0:02:48.2633691) ==========
+[12-Jan-20 22:49:43 Informational] ------ Run test started ------
+[12-Jan-20 22:49:49 Informational] ========== Run test finished: 1 run (0:00:05.6358047) ==========
+[12-Jan-20 22:51:43 Informational] ------ Run test started ------
+[12-Jan-20 22:51:49 Informational] ========== Run test finished: 1 run (0:00:05.6743405) ==========
+[12-Jan-20 22:51:53 Informational] ------ Run test started ------
+[12-Jan-20 22:52:25 Error] The active test run was aborted. Reason: 
+[12-Jan-20 22:52:25 Informational] ========== Run test finished: 0 run (0:00:32.0842085) ==========
+[12-Jan-20 22:58:01 Informational] ------ Discover test started ------
+[12-Jan-20 22:58:02 Informational] ========== Discover test finished: 10 found (0:00:01.1123975) ==========
+[12-Jan-20 22:58:02 Informational] ------ Discover test started ------
+[12-Jan-20 22:58:03 Informational] ========== Discover test finished: 10 found (0:00:00.8392236) ==========
+[12-Jan-20 22:58:03 Informational] ------ Run test started ------
+[12-Jan-20 22:58:15 Informational] ========== Run test finished: 10 run (0:00:11.6021455) ==========
+[12-Jan-20 22:58:57 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromParentDomain'
+[12-Jan-20 22:58:57 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromParentDomain'
+[12-Jan-20 22:58:57 Informational] ------ Run test started ------
+[12-Jan-20 22:58:58 Warning] No test matches the given testcase filter `FullyQualifiedName=ServiceLayerTests.UnitTest1.TestGetBooksFromParentDomain` in D:\Personal\Facultate\2. Master\Anul I, sem. I\C#\LibraryProject\ServiceLayerTests\bin\Debug\ServiceLayerTests.dll
+[12-Jan-20 22:58:58 Informational] ========== Run test finished: 0 run (0:00:00.7991224) ==========
+[12-Jan-20 22:59:55 Informational] ------ Run test started ------
+[12-Jan-20 23:00:37 Error] The active test run was aborted. Reason: 
+[12-Jan-20 23:00:37 Informational] ========== Run test finished: 0 run (0:00:42.0968999) ==========
+[12-Jan-20 23:04:01 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromExactDomain'
+[12-Jan-20 23:04:01 Informational] ------ Run test started ------
+[12-Jan-20 23:05:18 Error] The active test run was aborted. Reason: 
+[12-Jan-20 23:05:18 Informational] ========== Run test finished: 0 run (0:01:16.7014482) ==========
+[12-Jan-20 23:12:45 Informational] ------ Run test started ------
+[12-Jan-20 23:12:51 Informational] ========== Run test finished: 1 run (0:00:06.2713175) ==========
+[12-Jan-20 23:13:02 Informational] ------ Run test started ------
+[12-Jan-20 23:14:51 Error] The active test run was aborted. Reason: 
+[12-Jan-20 23:14:51 Informational] ========== Run test finished: 0 run (0:01:48.4979027) ==========
+[12-Jan-20 23:15:31 Informational] ------ Run test started ------
+[12-Jan-20 23:16:29 Error] The active test run was aborted. Reason: 
+[12-Jan-20 23:16:29 Informational] ========== Run test finished: 0 run (0:00:58.4091506) ==========
+[12-Jan-20 23:17:12 Informational] ------ Run test started ------
+[12-Jan-20 23:18:28 Error] The active test run was aborted. Reason: 
+[12-Jan-20 23:18:28 Informational] ========== Run test finished: 0 run (0:01:16.3662495) ==========
+[12-Jan-20 23:18:34 Informational] ------ Run test started ------
+[12-Jan-20 23:18:40 Informational] ========== Run test finished: 1 run (0:00:06.2228325) ==========
+[12-Jan-20 23:18:55 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromParentDomain'
+[12-Jan-20 23:18:55 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromParentDomain'
+[12-Jan-20 23:18:55 Informational] ------ Run test started ------
+[12-Jan-20 23:19:59 Informational] ========== Run test finished: 0 run (0:01:04.4829485) ==========
+[12-Jan-20 23:20:04 Informational] ------ Run test started ------
+[12-Jan-20 23:24:29 Error] The active test run was aborted. Reason: 
+[12-Jan-20 23:24:29 Informational] ========== Run test finished: 0 run (0:04:24.9403844) ==========
+[12-Jan-20 23:24:51 Informational] ------ Run test started ------
+[12-Jan-20 23:24:58 Informational] ========== Run test finished: 1 run (0:00:06.6927439) ==========
+[12-Jan-20 23:25:07 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromNullDomain'
+[12-Jan-20 23:25:07 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromNullDomain'
+[12-Jan-20 23:25:07 Informational] ------ Run test started ------
+[12-Jan-20 23:25:08 Informational] ========== Run test finished: 1 run (0:00:01.1709929) ==========
+[13-Jan-20 10:39:02 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksByAuthor'
+[13-Jan-20 10:39:02 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksByAuthor'
+[13-Jan-20 10:39:02 Informational] ------ Run test started ------
+[13-Jan-20 10:39:10 Informational] ========== Run test finished: 1 run (0:00:07.6499019) ==========
+[13-Jan-20 10:40:08 Informational] ------ Run test started ------
+[13-Jan-20 10:42:40 Error] The active test run was aborted. Reason: 
+[13-Jan-20 10:42:40 Informational] ========== Run test finished: 0 run (0:02:31.828284) ==========
+[13-Jan-20 10:58:21 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 10:58:21 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 10:58:21 Informational] ------ Run test started ------
+[13-Jan-20 10:58:37 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 10:58:37 Informational] ========== Run test finished: 0 run (0:00:16.1488281) ==========
+[13-Jan-20 10:58:54 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 10:58:54 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 10:58:54 Informational] ------ Run test started ------
+[13-Jan-20 10:59:08 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 10:59:08 Informational] ========== Run test finished: 0 run (0:00:14.7828547) ==========
+[13-Jan-20 10:59:31 Informational] ------ Discover test started ------
+[13-Jan-20 10:59:32 Informational] ========== Discover test finished: 3 found (0:00:01.232233) ==========
+[13-Jan-20 10:59:47 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 10:59:47 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 10:59:47 Informational] ------ Run test started ------
+[13-Jan-20 11:00:02 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:00:02 Informational] ========== Run test finished: 0 run (0:00:15.0464989) ==========
+[13-Jan-20 11:00:10 Informational] ------ Run test started ------
+[13-Jan-20 11:00:17 Informational] ========== Run test finished: 10 run (0:00:06.755882) ==========
+[13-Jan-20 11:00:29 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 11:00:29 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 11:00:29 Informational] ------ Run test started ------
+[13-Jan-20 11:00:44 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:00:44 Informational] ========== Run test finished: 0 run (0:00:14.9242792) ==========
+[13-Jan-20 11:00:54 Informational] ------ Run test started ------
+[13-Jan-20 11:01:02 Informational] ========== Run test finished: 10 run (0:00:07.6135445) ==========
+[13-Jan-20 11:01:40 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 11:01:40 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 11:01:40 Informational] ------ Run test started ------
+[13-Jan-20 11:01:55 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:01:55 Informational] ========== Run test finished: 0 run (0:00:15.15593) ==========
+[13-Jan-20 11:02:09 Informational] ------ Run test started ------
+[13-Jan-20 11:02:23 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:02:23 Informational] ========== Run test finished: 0 run (0:00:14.2638055) ==========
+[13-Jan-20 11:02:53 Informational] ------ Run test started ------
+[13-Jan-20 11:03:08 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:03:08 Informational] ========== Run test finished: 0 run (0:00:15.0047206) ==========
+[13-Jan-20 11:03:56 Informational] ------ Discover test started ------
+[13-Jan-20 11:03:58 Informational] ========== Discover test finished: 10 found (0:00:01.8480559) ==========
+[13-Jan-20 11:03:58 Informational] ------ Discover test started ------
+[13-Jan-20 11:03:58 Informational] ========== Discover test finished: 10 found (0:00:00.9183982) ==========
+[13-Jan-20 11:03:59 Informational] ------ Run test started ------
+[13-Jan-20 11:04:19 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:04:19 Informational] ========== Run test finished: 1 run (0:00:20.9144829) ==========
+[13-Jan-20 11:08:44 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksByAuthorHelllloooo'
+[13-Jan-20 11:08:44 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksByAuthorHelllloooo'
+[13-Jan-20 11:08:44 Informational] ------ Run test started ------
+[13-Jan-20 11:08:59 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:08:59 Informational] ========== Run test finished: 0 run (0:00:15.5563336) ==========
+[13-Jan-20 11:15:45 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksByAuthorHelllloooo'
+[13-Jan-20 11:15:45 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksByAuthorHelllloooo'
+[13-Jan-20 11:15:45 Informational] ------ Run test started ------
+[13-Jan-20 11:16:01 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:16:01 Informational] ========== Run test finished: 0 run (0:00:15.5243017) ==========
+[13-Jan-20 11:16:06 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksByAuthorHelllloooo'
+[13-Jan-20 11:16:06 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksByAuthorHelllloooo'
+[13-Jan-20 11:16:06 Informational] ------ Run test started ------
+[13-Jan-20 11:16:38 Error] The active test run was aborted. Reason: 
+[13-Jan-20 11:16:38 Informational] ========== Run test finished: 0 run (0:00:32.6744798) ==========
+[13-Jan-20 11:17:37 Informational] ------ Run test started ------
+[13-Jan-20 11:17:51 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:17:51 Informational] ========== Run test finished: 0 run (0:00:14.2520606) ==========
+[13-Jan-20 11:18:00 Informational] ------ Run test started ------
+[13-Jan-20 11:18:13 Error] The active test run was aborted. Reason: 
+[13-Jan-20 11:18:13 Informational] ========== Run test finished: 0 run (0:00:13.3466522) ==========
+[13-Jan-20 11:21:39 Informational] ------ Run test started ------
+[13-Jan-20 11:21:56 Error] The active test run was aborted. Reason: 
+[13-Jan-20 11:21:56 Informational] ========== Run test finished: 0 run (0:00:16.4718102) ==========
+[13-Jan-20 11:23:18 Informational] ------ Run test started ------
+[13-Jan-20 11:23:23 Informational] ========== Run test finished: 1 run (0:00:04.9538616) ==========
+[13-Jan-20 11:36:04 Informational] ------ Discover test started ------
+[13-Jan-20 11:36:06 Informational] ========== Discover test finished: 13 found (0:00:01.7086219) ==========
+[13-Jan-20 11:36:06 Informational] ------ Discover test started ------
+[13-Jan-20 11:36:07 Informational] ========== Discover test finished: 13 found (0:00:01.206567) ==========
+[13-Jan-20 11:36:07 Informational] ------ Run test started ------
+[13-Jan-20 11:36:36 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:36:36 Informational] ========== Run test finished: 4 run (0:00:29.175127) ==========
+[13-Jan-20 11:36:53 Informational] ------ Run test started ------
+[13-Jan-20 11:37:00 Informational] ========== Run test finished: 1 run (0:00:07.9124135) ==========
+[13-Jan-20 11:37:18 Informational] ------ Run test started ------
+[13-Jan-20 11:37:26 Informational] ========== Run test finished: 1 run (0:00:08.4909483) ==========
+[13-Jan-20 11:37:38 Informational] ------ Run test started ------
+[13-Jan-20 11:37:43 Informational] ========== Run test finished: 0 run (0:00:05.3032162) ==========
+[13-Jan-20 11:37:49 Informational] ------ Run test started ------
+[13-Jan-20 11:38:24 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:38:24 Informational] ========== Run test finished: 2 run (0:00:35.2041432) ==========
+[13-Jan-20 11:38:49 Informational] ------ Run test started ------
+[13-Jan-20 11:38:55 Informational] ========== Run test finished: 1 run (0:00:05.8247751) ==========
+[13-Jan-20 11:51:49 Informational] ------ Run test started ------
+[13-Jan-20 11:51:56 Informational] ========== Run test finished: 1 run (0:00:07.4575858) ==========
+[13-Jan-20 11:51:59 Informational] ------ Run test started ------
+[13-Jan-20 11:52:05 Informational] ========== Run test finished: 1 run (0:00:06.1130532) ==========
+[13-Jan-20 11:52:14 Informational] ------ Run test started ------
+[13-Jan-20 11:52:20 Informational] ========== Run test finished: 1 run (0:00:06.0065035) ==========
+[13-Jan-20 11:52:53 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromNullAuthor'
+[13-Jan-20 11:52:53 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromNullAuthor'
+[13-Jan-20 11:52:53 Informational] ------ Run test started ------
+[13-Jan-20 11:53:08 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:53:08 Informational] ========== Run test finished: 0 run (0:00:14.8158926) ==========
+[13-Jan-20 11:53:31 Informational] ------ Discover test started ------
+[13-Jan-20 11:53:32 Informational] ========== Discover test finished: 13 found (0:00:01.198274) ==========
+[13-Jan-20 11:53:32 Informational] ------ Discover test started ------
+[13-Jan-20 11:53:33 Informational] ========== Discover test finished: 13 found (0:00:00.9825441) ==========
+[13-Jan-20 11:53:33 Informational] ------ Run test started ------
+[13-Jan-20 11:54:00 Error] The active test run was aborted. Reason: Process is terminated due to StackOverflowException.
+
+[13-Jan-20 11:54:00 Informational] ========== Run test finished: 4 run (0:00:26.9566685) ==========
+[13-Jan-20 11:54:11 Informational] ------ Run test started ------
+[13-Jan-20 11:54:19 Informational] ========== Run test finished: 8 run (0:00:07.4491911) ==========
+[13-Jan-20 11:54:27 Informational] ------ Run test started ------
+[13-Jan-20 11:54:43 Error] The active test run was aborted. Reason: 
+[13-Jan-20 11:54:43 Informational] ========== Run test finished: 0 run (0:00:16.1220641) ==========
+[13-Jan-20 11:54:57 Informational] ------ Run test started ------
+[13-Jan-20 11:55:29 Error] The active test run was aborted. Reason: 
+[13-Jan-20 11:55:29 Informational] ========== Run test finished: 0 run (0:00:31.7763153) ==========
+[13-Jan-20 11:55:46 Informational] ------ Run test started ------
+[13-Jan-20 11:55:47 Informational] ========== Run test finished: 1 run (0:00:00.9247798) ==========
+[13-Jan-20 12:02:07 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 12:02:08 Informational] Executing test method 'ServiceLayerTests.UnitTest1.TestGetBooksFromAuthor'
+[13-Jan-20 12:02:08 Informational] ------ Run test started ------
+[13-Jan-20 12:02:14 Informational] ========== Run test finished: 1 run (0:00:06.3429848) ==========
+[13-Jan-20 12:02:25 Informational] ------ Run test started ------
+[13-Jan-20 12:02:51 Error] The active test run was aborted. Reason: 
+[13-Jan-20 12:02:51 Informational] ========== Run test finished: 0 run (0:00:25.5750146) ==========
+[13-Jan-20 12:26:40 Informational] ------ Discover test started ------
+[13-Jan-20 12:26:41 Informational] ========== Discover test finished: 14 found (0:00:01.6136849) ==========
+[13-Jan-20 12:26:42 Informational] ------ Discover test started ------
+[13-Jan-20 12:26:42 Informational] ========== Discover test finished: 14 found (0:00:00.8163298) ==========
+[13-Jan-20 12:26:42 Informational] ------ Run test started ------
+[13-Jan-20 12:26:56 Informational] ========== Run test finished: 14 run (0:00:13.4371197) ==========
+[14-Jan-20 10:18:35 Informational] ------ Run test started ------
+[14-Jan-20 10:18:44 Informational] ========== Run test finished: 11 run (0:00:08.8916752) ==========
+[14-Jan-20 10:19:03 Informational] ------ Run test started ------
+[14-Jan-20 10:19:04 Informational] ========== Run test finished: 1 run (0:00:01.1083416) ==========
+[14-Jan-20 10:19:20 Informational] ------ Run test started ------
+[14-Jan-20 10:19:40 Error] The active test run was aborted. Reason: 
+[14-Jan-20 10:19:40 Informational] ========== Run test finished: 0 run (0:00:19.8804834) ==========
+[14-Jan-20 10:20:03 Informational] ------ Run test started ------
+[14-Jan-20 10:20:14 Informational] ========== Run test finished: 1 run (0:00:11.6899374) ==========
+[14-Jan-20 10:20:49 Informational] ------ Run test started ------
+[14-Jan-20 10:20:57 Error] The active test run was aborted. Reason: 
+[14-Jan-20 10:20:57 Informational] ========== Run test finished: 0 run (0:00:08.010793) ==========
+[14-Jan-20 10:21:11 Informational] ------ Run test started ------
+[14-Jan-20 10:21:12 Informational] ========== Run test finished: 1 run (0:00:00.9998236) ==========
+[14-Jan-20 10:29:47 Informational] ------ Run test started ------
+[14-Jan-20 10:29:55 Informational] ========== Run test finished: 11 run (0:00:07.712517) ==========
+[14-Jan-20 10:31:48 Informational] ------ Run test started ------
+[14-Jan-20 10:31:57 Informational] ========== Run test finished: 11 run (0:00:08.2367039) ==========
+[14-Jan-20 10:32:52 Informational] ------ Discover test started ------
+[14-Jan-20 10:32:54 Informational] ========== Discover test finished: 3 found (0:00:01.4015604) ==========
+[14-Jan-20 10:33:00 Informational] ------ Run test started ------
+[14-Jan-20 10:33:08 Informational] ========== Run test finished: 11 run (0:00:07.2166352) ==========
+[14-Jan-20 10:37:11 Informational] ------ Run test started ------
+[14-Jan-20 10:37:18 Informational] ========== Run test finished: 11 run (0:00:07.3269111) ==========
+[14-Jan-20 11:23:25 Informational] ------ Run test started ------
+[14-Jan-20 11:23:44 Informational] ========== Run test finished: 14 run (0:00:19.2651253) ==========
+[14-Jan-20 11:26:00 Informational] ------ Run test started ------
+[14-Jan-20 11:26:13 Informational] ========== Run test finished: 14 run (0:00:13.3377425) ==========
+[14-Jan-20 11:27:03 Informational] ------ Run test started ------
+[14-Jan-20 11:27:16 Informational] ========== Run test finished: 14 run (0:00:13.3415843) ==========
+[14-Jan-20 11:29:08 Informational] ------ Run test started ------
+[14-Jan-20 11:29:14 Informational] ========== Run test finished: 1 run (0:00:05.7408144) ==========
+[14-Jan-20 11:37:05 Informational] ------ Discover test started ------
+[14-Jan-20 11:37:07 Informational] ========== Discover test finished: 14 found (0:00:01.9338095) ==========
+[14-Jan-20 11:37:14 Informational] ------ Run test started ------
+[14-Jan-20 11:37:27 Informational] ========== Run test finished: 14 run (0:00:12.4317538) ==========
+[14-Jan-20 11:40:57 Informational] ------ Discover test started ------
+[14-Jan-20 11:40:59 Informational] ========== Discover test finished: 14 found (0:00:01.6525786) ==========
+[14-Jan-20 11:41:03 Informational] ------ Run test started ------
+[14-Jan-20 11:41:20 Informational] ========== Run test finished: 14 run (0:00:16.9932695) ==========
+[14-Jan-20 11:41:51 Informational] ------ Discover test started ------
+[14-Jan-20 11:41:53 Informational] ========== Discover test finished: 14 found (0:00:02.3086091) ==========
+[14-Jan-20 11:41:59 Informational] ------ Run test started ------
+[14-Jan-20 11:42:19 Informational] ========== Run test finished: 14 run (0:00:20.0208373) ==========
+[14-Jan-20 11:42:34 Informational] ------ Discover test started ------
+[14-Jan-20 11:42:36 Informational] ========== Discover test finished: 14 found (0:00:02.2680622) ==========
+[14-Jan-20 11:42:49 Informational] ------ Run test started ------
+[14-Jan-20 11:43:02 Informational] ========== Run test finished: 14 run (0:00:13.1242599) ==========
+[14-Jan-20 11:54:40 Informational] ------ Discover test started ------
+[14-Jan-20 11:54:43 Informational] ========== Discover test finished: 14 found (0:00:02.4620001) ==========
+[14-Jan-20 11:54:49 Informational] ------ Run test started ------
+[14-Jan-20 11:55:03 Informational] ========== Run test finished: 14 run (0:00:13.0276166) ==========
+[14-Jan-20 11:57:33 Informational] ------ Discover test started ------
+[14-Jan-20 11:57:35 Informational] ========== Discover test finished: 14 found (0:00:01.6765148) ==========
+[14-Jan-20 11:57:40 Informational] ------ Run test started ------
+[14-Jan-20 11:57:53 Informational] ========== Run test finished: 14 run (0:00:13.0069949) ==========
+[14-Jan-20 11:58:59 Informational] ------ Discover test started ------
+[14-Jan-20 11:59:01 Informational] ========== Discover test finished: 14 found (0:00:01.7121532) ==========
+[14-Jan-20 11:59:05 Informational] ------ Run test started ------
+[14-Jan-20 11:59:20 Informational] ========== Run test finished: 14 run (0:00:14.9285437) ==========
+[14-Jan-20 12:00:57 Informational] ------ Run test started ------
+[14-Jan-20 12:01:03 Informational] ========== Run test finished: 1 run (0:00:05.9260385) ==========
+[14-Jan-20 20:58:45 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorIsValid'
+[14-Jan-20 20:58:46 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorIsValid'
+[14-Jan-20 20:58:49 Informational] ------ Run test started ------
+[14-Jan-20 20:58:52 Informational] ========== Run test finished: 1 run (0:00:02.8774471) ==========
+[14-Jan-20 21:01:03 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksIsNull'
+[14-Jan-20 21:01:03 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksIsNull'
+[14-Jan-20 21:01:03 Informational] ------ Run test started ------
+[14-Jan-20 21:01:05 Informational] ========== Run test finished: 1 run (0:00:01.9885256) ==========
+[14-Jan-20 21:03:11 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameIsNull'
+[14-Jan-20 21:03:12 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameIsNull'
+[14-Jan-20 21:03:12 Informational] ------ Run test started ------
+[14-Jan-20 21:03:13 Informational] ========== Run test finished: 1 run (0:00:01.5727287) ==========
+[14-Jan-20 21:03:50 Informational] ------ Discover test started ------
+[14-Jan-20 21:03:52 Error] LoadProjectIdsAsync: Unable to fetch new VsProject after the original was Disposed
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<TryProjectActionAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<<get_ProjectOutput>b__30_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.get_ProjectOutput()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_1.<GetProjectIdsFromFilesAsync>b__2(ProjectDescriptor p)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<GetProjectIdsFromFilesAsync>g__FindOrQueue|1(TestFileDescriptor tfd, Queue`1 unmatched)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<<GetProjectIdsFromFilesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.<JoinAsync>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<GetProjectIdsFromFilesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<LoadProjectIdsAsync>d__33.MoveNext()
+[14-Jan-20 21:03:52 Informational] ========== Discover test finished: 16 found (0:00:02.6277095) ==========
+[14-Jan-20 21:03:52 Informational] ------ Run test started ------
+[14-Jan-20 21:04:09 Informational] ========== Run test finished: 16 run (0:00:16.2169153) ==========
+[14-Jan-20 21:08:09 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorIdSetGet'
+[14-Jan-20 21:08:10 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorIdSetGet'
+[14-Jan-20 21:08:10 Informational] ------ Run test started ------
+[14-Jan-20 21:08:11 Informational] ========== Run test finished: 1 run (0:00:01.4856585) ==========
+[14-Jan-20 21:09:04 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorIdDefaultIsZero'
+[14-Jan-20 21:09:04 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorIdDefaultIsZero'
+[14-Jan-20 21:09:04 Informational] ------ Run test started ------
+[14-Jan-20 21:09:05 Informational] ========== Run test finished: 1 run (0:00:01.3753444) ==========
+[14-Jan-20 21:12:30 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameIsEmpty'
+[14-Jan-20 21:12:31 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameIsEmpty'
+[14-Jan-20 21:12:31 Informational] ------ Run test started ------
+[14-Jan-20 21:12:32 Informational] ========== Run test finished: 1 run (0:00:01.4573287) ==========
+[14-Jan-20 21:14:00 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameTooShort'
+[14-Jan-20 21:14:00 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameTooShort'
+[14-Jan-20 21:14:00 Informational] ------ Run test started ------
+[14-Jan-20 21:14:02 Informational] ========== Run test finished: 1 run (0:00:01.7712617) ==========
+[14-Jan-20 21:15:25 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameLowerBoundry'
+[14-Jan-20 21:15:25 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameLowerBoundry'
+[14-Jan-20 21:15:25 Informational] ------ Run test started ------
+[14-Jan-20 21:15:26 Informational] ========== Run test finished: 1 run (0:00:01.4797533) ==========
+[14-Jan-20 21:16:53 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameUpperBoundry'
+[14-Jan-20 21:16:53 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameUpperBoundry'
+[14-Jan-20 21:16:53 Informational] ------ Run test started ------
+[14-Jan-20 21:16:55 Informational] ========== Run test finished: 1 run (0:00:01.4800405) ==========
+[14-Jan-20 21:18:18 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameTooLong'
+[14-Jan-20 21:18:18 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameTooLong'
+[14-Jan-20 21:18:18 Informational] ------ Run test started ------
+[14-Jan-20 21:18:20 Informational] ========== Run test finished: 1 run (0:00:01.2975777) ==========
+[14-Jan-20 21:22:30 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksNotNull'
+[14-Jan-20 21:22:30 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksNotNull'
+[14-Jan-20 21:22:30 Informational] ------ Run test started ------
+[14-Jan-20 21:22:31 Informational] ========== Run test finished: 1 run (0:00:01.2873604) ==========
+[14-Jan-20 21:23:32 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksEmpty'
+[14-Jan-20 21:23:32 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksEmpty'
+[14-Jan-20 21:23:32 Informational] ------ Run test started ------
+[14-Jan-20 21:23:34 Informational] ========== Run test finished: 1 run (0:00:01.5182704) ==========
+[14-Jan-20 21:37:08 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksNull'
+[14-Jan-20 21:37:08 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksNull'
+[14-Jan-20 21:37:08 Informational] ------ Run test started ------
+[14-Jan-20 21:37:09 Informational] ========== Run test finished: 1 run (0:00:01.3697931) ==========
+[14-Jan-20 21:41:59 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksNotEmpty'
+[14-Jan-20 21:41:59 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksNotEmpty'
+[14-Jan-20 21:41:59 Informational] ------ Run test started ------
+[14-Jan-20 21:42:01 Informational] ========== Run test finished: 1 run (0:00:02.2863576) ==========
+[14-Jan-20 21:42:36 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorBooksNotEmpty'
+[14-Jan-20 21:42:36 Informational] ------ Run test started ------
+[14-Jan-20 21:42:37 Informational] ========== Run test finished: 1 run (0:00:01.2287135) ==========
+[14-Jan-20 21:51:03 Informational] Executing test method 'DomainModelTests.BookTests.TestBookIsValid'
+[14-Jan-20 21:51:03 Informational] Executing test method 'DomainModelTests.BookTests.TestBookIsValid'
+[14-Jan-20 21:51:03 Informational] ------ Run test started ------
+[14-Jan-20 21:51:05 Informational] ========== Run test finished: 1 run (0:00:01.3175105) ==========
+[14-Jan-20 21:53:35 Informational] Executing test method 'DomainModelTests.BookTests.TestBookIdSetGet'
+[14-Jan-20 21:53:35 Informational] Executing test method 'DomainModelTests.BookTests.TestBookIdSetGet'
+[14-Jan-20 21:53:35 Informational] ------ Run test started ------
+[14-Jan-20 21:53:37 Informational] ========== Run test finished: 1 run (0:00:01.5199154) ==========
+[14-Jan-20 21:53:53 Informational] Executing test method 'DomainModelTests.BookTests.TestBookIdSetGet'
+[14-Jan-20 21:53:53 Informational] ------ Run test started ------
+[14-Jan-20 21:53:55 Informational] ========== Run test finished: 1 run (0:00:01.0596812) ==========
+[14-Jan-20 21:54:38 Informational] Executing test method 'DomainModelTests.BookTests.TestBookIdDefaultIsZero'
+[14-Jan-20 21:54:38 Informational] Executing test method 'DomainModelTests.BookTests.TestBookIdDefaultIsZero'
+[14-Jan-20 21:54:38 Informational] ------ Run test started ------
+[14-Jan-20 21:54:39 Informational] ========== Run test finished: 1 run (0:00:01.3337629) ==========
+[14-Jan-20 21:55:48 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleIsNull'
+[14-Jan-20 21:55:48 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleIsNull'
+[14-Jan-20 21:55:48 Informational] ------ Run test started ------
+[14-Jan-20 21:55:49 Informational] ========== Run test finished: 1 run (0:00:01.3714589) ==========
+[14-Jan-20 21:56:27 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleIsNotNull'
+[14-Jan-20 21:56:27 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleIsNotNull'
+[14-Jan-20 21:56:27 Informational] ------ Run test started ------
+[14-Jan-20 21:56:28 Informational] ========== Run test finished: 1 run (0:00:01.2375623) ==========
+[14-Jan-20 21:58:44 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleIsEmpty'
+[14-Jan-20 21:58:44 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleIsEmpty'
+[14-Jan-20 21:58:44 Informational] ------ Run test started ------
+[14-Jan-20 21:58:45 Informational] ========== Run test finished: 1 run (0:00:01.4283829) ==========
+[14-Jan-20 21:59:15 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleIsNotEmpty'
+[14-Jan-20 21:59:15 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleIsNotEmpty'
+[14-Jan-20 21:59:15 Informational] ------ Run test started ------
+[14-Jan-20 21:59:17 Informational] ========== Run test finished: 1 run (0:00:01.6705319) ==========
+[14-Jan-20 21:59:27 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleIsNotEmpty'
+[14-Jan-20 21:59:27 Informational] ------ Run test started ------
+[14-Jan-20 21:59:28 Informational] ========== Run test finished: 1 run (0:00:01.0708124) ==========
+[14-Jan-20 22:06:51 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleTooShort'
+[14-Jan-20 22:06:51 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleTooShort'
+[14-Jan-20 22:06:51 Informational] ------ Run test started ------
+[14-Jan-20 22:06:53 Informational] ========== Run test finished: 1 run (0:00:01.5597524) ==========
+[14-Jan-20 22:09:09 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleLowerBoundry'
+[14-Jan-20 22:09:09 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleLowerBoundry'
+[14-Jan-20 22:09:09 Informational] ------ Run test started ------
+[14-Jan-20 22:09:10 Informational] ========== Run test finished: 1 run (0:00:01.352002) ==========
+[14-Jan-20 22:12:17 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleUpperBoundry'
+[14-Jan-20 22:12:17 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleUpperBoundry'
+[14-Jan-20 22:12:17 Informational] ------ Run test started ------
+[14-Jan-20 22:12:19 Informational] ========== Run test finished: 1 run (0:00:01.3613587) ==========
+[14-Jan-20 22:14:04 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleTooLong'
+[14-Jan-20 22:14:04 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleTooLong'
+[14-Jan-20 22:14:04 Informational] ------ Run test started ------
+[14-Jan-20 22:14:05 Informational] ========== Run test finished: 1 run (0:00:01.224055) ==========
+[14-Jan-20 22:17:35 Informational] Executing test method 'DomainModelTests.BookTests.TestBookAuthorsNotNull'
+[14-Jan-20 22:17:35 Informational] Executing test method 'DomainModelTests.BookTests.TestBookAuthorsNotNull'
+[14-Jan-20 22:17:35 Informational] ------ Run test started ------
+[14-Jan-20 22:17:37 Informational] ========== Run test finished: 1 run (0:00:01.2878178) ==========
+[14-Jan-20 22:18:21 Informational] Executing test method 'DomainModelTests.BookTests.TestBookAuthorsEmpty'
+[14-Jan-20 22:18:21 Informational] Executing test method 'DomainModelTests.BookTests.TestBookAuthorsEmpty'
+[14-Jan-20 22:18:21 Informational] ------ Run test started ------
+[14-Jan-20 22:18:23 Informational] ========== Run test finished: 1 run (0:00:01.7443665) ==========
+[14-Jan-20 22:19:17 Informational] Executing test method 'DomainModelTests.BookTests.TestBookAuthorsEmpty'
+[14-Jan-20 22:19:17 Informational] ------ Run test started ------
+[14-Jan-20 22:19:18 Informational] ========== Run test finished: 1 run (0:00:01.0768008) ==========
+[14-Jan-20 22:20:16 Informational] Executing test method 'DomainModelTests.BookTests.TestBookAuthorsNull'
+[14-Jan-20 22:20:16 Informational] Executing test method 'DomainModelTests.BookTests.TestBookAuthorsNull'
+[14-Jan-20 22:20:16 Informational] ------ Run test started ------
+[14-Jan-20 22:20:17 Informational] ========== Run test finished: 1 run (0:00:01.254644) ==========
+[14-Jan-20 22:21:59 Informational] Executing test method 'DomainModelTests.BookTests.TestBookAuthorsNotEmpty'
+[14-Jan-20 22:21:59 Informational] Executing test method 'DomainModelTests.BookTests.TestBookAuthorsNotEmpty'
+[14-Jan-20 22:21:59 Informational] ------ Run test started ------
+[14-Jan-20 22:22:01 Informational] ========== Run test finished: 1 run (0:00:01.7540395) ==========
+[14-Jan-20 22:26:01 Warning] Build failed or it was cancelled.
+[14-Jan-20 22:27:29 Informational] Executing test method 'DomainModelTests.BookTests.TestBookEditionsNotEmpty'
+[14-Jan-20 22:27:29 Informational] Executing test method 'DomainModelTests.BookTests.TestBookEditionsNotEmpty'
+[14-Jan-20 22:27:29 Informational] ------ Run test started ------
+[14-Jan-20 22:27:31 Informational] ========== Run test finished: 1 run (0:00:01.4689315) ==========
+[14-Jan-20 22:27:41 Informational] Executing test method 'DomainModelTests.BookTests.TestBookEditionsNull'
+[14-Jan-20 22:27:41 Informational] Executing test method 'DomainModelTests.BookTests.TestBookEditionsNull'
+[14-Jan-20 22:27:41 Informational] ------ Run test started ------
+[14-Jan-20 22:27:42 Informational] ========== Run test finished: 1 run (0:00:01.2237265) ==========
+[14-Jan-20 22:27:54 Informational] Executing test method 'DomainModelTests.BookTests.TestBookEditionsEmpty'
+[14-Jan-20 22:27:54 Informational] Executing test method 'DomainModelTests.BookTests.TestBookEditionsEmpty'
+[14-Jan-20 22:27:54 Informational] ------ Run test started ------
+[14-Jan-20 22:27:55 Informational] ========== Run test finished: 1 run (0:00:01.6780214) ==========
+[14-Jan-20 22:28:04 Informational] Executing test method 'DomainModelTests.BookTests.TestBookEditionsNotNull'
+[14-Jan-20 22:28:04 Informational] Executing test method 'DomainModelTests.BookTests.TestBookEditionsNotNull'
+[14-Jan-20 22:28:04 Informational] ------ Run test started ------
+[14-Jan-20 22:28:06 Informational] ========== Run test finished: 1 run (0:00:01.4262366) ==========
+[14-Jan-20 22:58:29 Informational] Executing test method 'DomainModelTests.BookTests.TestBookDomainsNotNull'
+[14-Jan-20 22:58:29 Informational] Executing test method 'DomainModelTests.BookTests.TestBookDomainsNotNull'
+[14-Jan-20 22:58:29 Informational] ------ Run test started ------
+[14-Jan-20 22:58:31 Informational] ========== Run test finished: 1 run (0:00:01.9223839) ==========
+[14-Jan-20 22:58:37 Informational] Executing test method 'DomainModelTests.BookTests.TestBookDomainsEmpty'
+[14-Jan-20 22:58:37 Informational] Executing test method 'DomainModelTests.BookTests.TestBookDomainsEmpty'
+[14-Jan-20 22:58:37 Informational] ------ Run test started ------
+[14-Jan-20 22:58:38 Informational] ========== Run test finished: 1 run (0:00:01.4198333) ==========
+[14-Jan-20 22:58:46 Informational] Executing test method 'DomainModelTests.BookTests.TestBookDomainsNull'
+[14-Jan-20 22:58:46 Informational] Executing test method 'DomainModelTests.BookTests.TestBookDomainsNull'
+[14-Jan-20 22:58:46 Informational] ------ Run test started ------
+[14-Jan-20 22:58:47 Informational] ========== Run test finished: 1 run (0:00:01.3852948) ==========
+[14-Jan-20 22:58:55 Informational] Executing test method 'DomainModelTests.BookTests.TestBookDomainsNotEmpty'
+[14-Jan-20 22:58:55 Informational] Executing test method 'DomainModelTests.BookTests.TestBookDomainsNotEmpty'
+[14-Jan-20 22:58:55 Informational] ------ Run test started ------
+[14-Jan-20 22:58:56 Informational] ========== Run test finished: 1 run (0:00:01.2972453) ==========
+[14-Jan-20 22:59:17 Informational] Executing all tests in type 'DomainModelTests.BookTests'
+[14-Jan-20 22:59:17 Informational] ------ Run test started ------
+[14-Jan-20 22:59:19 Informational] ========== Run test finished: 23 run (0:00:01.1969276) ==========
+[14-Jan-20 23:05:30 Informational] Executing test method 'DomainModelTests.BookTests.TestBookReadersNotEmpty'
+[14-Jan-20 23:05:30 Informational] Executing test method 'DomainModelTests.BookTests.TestBookReadersNotEmpty'
+[14-Jan-20 23:05:30 Informational] ------ Run test started ------
+[14-Jan-20 23:05:32 Informational] ========== Run test finished: 1 run (0:00:01.2618087) ==========
+[14-Jan-20 23:05:38 Informational] Executing test method 'DomainModelTests.BookTests.TestBookReadersNull'
+[14-Jan-20 23:05:38 Informational] Executing test method 'DomainModelTests.BookTests.TestBookReadersNull'
+[14-Jan-20 23:05:38 Informational] ------ Run test started ------
+[14-Jan-20 23:05:40 Informational] ========== Run test finished: 1 run (0:00:01.2589119) ==========
+[14-Jan-20 23:05:47 Informational] Executing test method 'DomainModelTests.BookTests.TestBookReadersEmpty'
+[14-Jan-20 23:05:47 Informational] Executing test method 'DomainModelTests.BookTests.TestBookReadersEmpty'
+[14-Jan-20 23:05:47 Informational] ------ Run test started ------
+[14-Jan-20 23:05:49 Informational] ========== Run test finished: 1 run (0:00:01.2037829) ==========
+[14-Jan-20 23:05:56 Informational] Executing test method 'DomainModelTests.BookTests.TestBookReadersNotNull'
+[14-Jan-20 23:05:56 Informational] Executing test method 'DomainModelTests.BookTests.TestBookReadersNotNull'
+[14-Jan-20 23:05:56 Informational] ------ Run test started ------
+[14-Jan-20 23:05:57 Informational] ========== Run test finished: 1 run (0:00:01.2063103) ==========
+[14-Jan-20 23:06:05 Informational] Executing all tests in type 'DomainModelTests.BookTests'
+[14-Jan-20 23:06:05 Informational] ------ Run test started ------
+[14-Jan-20 23:06:07 Informational] ========== Run test finished: 27 run (0:00:01.2656157) ==========
+[14-Jan-20 23:14:28 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameIsEmpty'
+[14-Jan-20 23:14:28 Informational] ------ Run test started ------
+[14-Jan-20 23:14:29 Informational] ========== Run test finished: 1 run (0:00:01.0963557) ==========
+[14-Jan-20 23:15:35 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameLowerBoundary'
+[14-Jan-20 23:15:35 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameLowerBoundary'
+[14-Jan-20 23:15:35 Informational] ------ Run test started ------
+[14-Jan-20 23:15:36 Informational] ========== Run test finished: 1 run (0:00:01.5219199) ==========
+[14-Jan-20 23:16:11 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleLowerBoundary'
+[14-Jan-20 23:16:11 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleLowerBoundary'
+[14-Jan-20 23:16:11 Informational] ------ Run test started ------
+[14-Jan-20 23:16:13 Informational] ========== Run test finished: 1 run (0:00:01.4773078) ==========
+[14-Jan-20 23:16:25 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleUpperBoundary'
+[14-Jan-20 23:16:25 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleUpperBoundary'
+[14-Jan-20 23:16:25 Informational] ------ Run test started ------
+[14-Jan-20 23:16:26 Informational] ========== Run test finished: 1 run (0:00:01.4714452) ==========
+[14-Jan-20 23:16:40 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameLowerBoundary'
+[14-Jan-20 23:16:40 Informational] ------ Run test started ------
+[14-Jan-20 23:16:42 Informational] ========== Run test finished: 1 run (0:00:01.098063) ==========
+[14-Jan-20 23:16:49 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameUpperBoundary'
+[14-Jan-20 23:16:49 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameUpperBoundary'
+[14-Jan-20 23:16:49 Informational] ------ Run test started ------
+[14-Jan-20 23:16:51 Informational] ========== Run test finished: 1 run (0:00:01.4860102) ==========
+[14-Jan-20 23:17:04 Informational] Executing test method 'DomainModelTests.AuthorTests.TestAuthorNameTooLong'
+[14-Jan-20 23:17:04 Informational] ------ Run test started ------
+[14-Jan-20 23:17:05 Informational] ========== Run test finished: 1 run (0:00:01.0811711) ==========
+[14-Jan-20 23:17:17 Informational] Executing test method 'DomainModelTests.BookTests.TestBookTitleUpperBoundary'
+[14-Jan-20 23:17:17 Informational] ------ Run test started ------
+[14-Jan-20 23:17:18 Informational] ========== Run test finished: 1 run (0:00:00.9015326) ==========
+[14-Jan-20 23:17:36 Informational] Executing all tests in type 'DomainModelTests.BookTests'
+[14-Jan-20 23:17:36 Informational] ------ Run test started ------
+[14-Jan-20 23:17:37 Informational] ========== Run test finished: 29 run (0:00:01.1778487) ==========
+[14-Jan-20 23:17:52 Informational] Executing all tests in type 'DomainModelTests.AuthorTests'
+[14-Jan-20 23:17:52 Informational] ------ Run test started ------
+[14-Jan-20 23:17:53 Informational] ========== Run test finished: 15 run (0:00:01.2979662) ==========
+[14-Jan-20 23:18:42 Informational] ------ Discover test started ------
+[14-Jan-20 23:18:43 Error] LoadProjectIdsAsync: Unable to fetch new VsProject after the original was Disposed
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<TryProjectActionAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<<get_ProjectOutput>b__30_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.get_ProjectOutput()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_1.<GetProjectIdsFromFilesAsync>b__2(ProjectDescriptor p)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<GetProjectIdsFromFilesAsync>g__FindOrQueue|1(TestFileDescriptor tfd, Queue`1 unmatched)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<<GetProjectIdsFromFilesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.<JoinAsync>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<GetProjectIdsFromFilesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<LoadProjectIdsAsync>d__33.MoveNext()
+[14-Jan-20 23:18:44 Informational] ========== Discover test finished: 54 found (0:00:02.0471165) ==========
+[14-Jan-20 23:18:44 Informational] ------ Run test started ------
+[14-Jan-20 23:18:58 Informational] ========== Run test finished: 54 run (0:00:14.2871932) ==========
+[14-Jan-20 23:27:29 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigurationIsValid'
+[14-Jan-20 23:27:30 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigurationIsValid'
+[14-Jan-20 23:27:30 Informational] ------ Run test started ------
+[14-Jan-20 23:27:31 Informational] ========== Run test finished: 1 run (0:00:01.7395211) ==========
+[14-Jan-20 23:30:00 Warning] Build failed or it was cancelled.
+[14-Jan-20 23:30:52 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigIdSetGet'
+[14-Jan-20 23:30:52 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigIdSetGet'
+[14-Jan-20 23:30:52 Informational] ------ Run test started ------
+[14-Jan-20 23:30:54 Informational] ========== Run test finished: 1 run (0:00:01.3092156) ==========
+[14-Jan-20 23:31:01 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigIdDefaultIsZero'
+[14-Jan-20 23:31:01 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigIdDefaultIsZero'
+[14-Jan-20 23:31:01 Informational] ------ Run test started ------
+[14-Jan-20 23:31:03 Informational] ========== Run test finished: 1 run (0:00:01.4521151) ==========
+[14-Jan-20 23:32:00 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigIdDefaultIsZero'
+[14-Jan-20 23:32:00 Informational] ------ Run test started ------
+[14-Jan-20 23:32:02 Informational] ========== Run test finished: 1 run (0:00:01.3045665) ==========
+[14-Jan-20 23:32:21 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigIdDefaultIsZero'
+[14-Jan-20 23:32:21 Informational] ------ Run test started ------
+[14-Jan-20 23:32:22 Informational] ========== Run test finished: 1 run (0:00:01.0433029) ==========
+[14-Jan-20 23:34:34 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigIdSetGet'
+[14-Jan-20 23:34:34 Informational] ------ Run test started ------
+[14-Jan-20 23:34:35 Informational] ========== Run test finished: 1 run (0:00:01.365986) ==========
+[14-Jan-20 23:34:47 Informational] Executing all tests in type 'DomainModelTests.ConfigurationTests'
+[14-Jan-20 23:34:47 Informational] ------ Run test started ------
+[14-Jan-20 23:34:49 Informational] ========== Run test finished: 3 run (0:00:01.3056602) ==========
+[14-Jan-20 23:35:21 Informational] ------ Discover test started ------
+[14-Jan-20 23:35:23 Error] LoadProjectIdsAsync: Unable to fetch new VsProject after the original was Disposed
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<TryProjectActionAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<<get_ProjectOutput>b__30_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.get_ProjectOutput()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_1.<GetProjectIdsFromFilesAsync>b__2(ProjectDescriptor p)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<GetProjectIdsFromFilesAsync>g__FindOrQueue|1(TestFileDescriptor tfd, Queue`1 unmatched)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<<GetProjectIdsFromFilesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.<JoinAsync>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<GetProjectIdsFromFilesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<LoadProjectIdsAsync>d__33.MoveNext()
+[14-Jan-20 23:35:23 Informational] ========== Discover test finished: 56 found (0:00:01.7047635) ==========
+[14-Jan-20 23:35:23 Informational] ------ Run test started ------
+[14-Jan-20 23:35:36 Informational] ========== Run test finished: 56 run (0:00:13.1617048) ==========
+[14-Jan-20 23:58:33 Informational] Executing all tests in type 'DomainModelTests.ConfigurationTests'
+[14-Jan-20 23:58:33 Informational] ------ Run test started ------
+[14-Jan-20 23:58:35 Informational] ========== Run test finished: 2 run (0:00:01.3609801) ==========
+[14-Jan-20 23:58:45 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameTooLong'
+[14-Jan-20 23:58:45 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameTooLong'
+[14-Jan-20 23:58:45 Informational] ------ Run test started ------
+[14-Jan-20 23:58:46 Informational] ========== Run test finished: 1 run (0:00:01.3957797) ==========
+[14-Jan-20 23:58:56 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameUpperBoundary'
+[14-Jan-20 23:58:56 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameUpperBoundary'
+[14-Jan-20 23:58:56 Informational] ------ Run test started ------
+[14-Jan-20 23:58:57 Informational] ========== Run test finished: 1 run (0:00:01.323458) ==========
+[14-Jan-20 23:59:02 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameLowerBoundary'
+[14-Jan-20 23:59:02 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameLowerBoundary'
+[14-Jan-20 23:59:02 Informational] ------ Run test started ------
+[14-Jan-20 23:59:03 Informational] ========== Run test finished: 1 run (0:00:01.2835651) ==========
+[14-Jan-20 23:59:08 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameTooShort'
+[14-Jan-20 23:59:08 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameTooShort'
+[14-Jan-20 23:59:08 Informational] ------ Run test started ------
+[14-Jan-20 23:59:10 Informational] ========== Run test finished: 1 run (0:00:01.4451107) ==========
+[14-Jan-20 23:59:16 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameIsNotEmpty'
+[14-Jan-20 23:59:16 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameIsNotEmpty'
+[14-Jan-20 23:59:16 Informational] ------ Run test started ------
+[14-Jan-20 23:59:17 Informational] ========== Run test finished: 1 run (0:00:01.2117587) ==========
+[14-Jan-20 23:59:25 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameIsEmpty'
+[14-Jan-20 23:59:25 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameIsEmpty'
+[14-Jan-20 23:59:25 Informational] ------ Run test started ------
+[14-Jan-20 23:59:26 Informational] ========== Run test finished: 1 run (0:00:01.4268398) ==========
+[14-Jan-20 23:59:33 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameIsNotNull'
+[14-Jan-20 23:59:33 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameIsNotNull'
+[14-Jan-20 23:59:33 Informational] ------ Run test started ------
+[14-Jan-20 23:59:34 Informational] ========== Run test finished: 1 run (0:00:01.2298006) ==========
+[14-Jan-20 23:59:41 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameIsNull'
+[14-Jan-20 23:59:42 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigNameIsNull'
+[14-Jan-20 23:59:42 Informational] ------ Run test started ------
+[14-Jan-20 23:59:43 Informational] ========== Run test finished: 1 run (0:00:01.4561786) ==========
+[14-Jan-20 23:59:50 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigIdSetGet'
+[14-Jan-20 23:59:50 Informational] ------ Run test started ------
+[14-Jan-20 23:59:51 Informational] ========== Run test finished: 1 run (0:00:00.9374918) ==========
+[15-Jan-20 00:00:01 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigurationIsValid'
+[15-Jan-20 00:00:01 Informational] ------ Run test started ------
+[15-Jan-20 00:00:02 Informational] ========== Run test finished: 1 run (0:00:01.0356366) ==========
+[15-Jan-20 00:04:35 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigValueNegative'
+[15-Jan-20 00:04:35 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigValueNegative'
+[15-Jan-20 00:04:35 Informational] ------ Run test started ------
+[15-Jan-20 00:04:37 Informational] ========== Run test finished: 1 run (0:00:01.6263529) ==========
+[15-Jan-20 00:07:07 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigValueSmaller'
+[15-Jan-20 00:07:07 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigValueSmaller'
+[15-Jan-20 00:07:07 Informational] ------ Run test started ------
+[15-Jan-20 00:07:08 Informational] ========== Run test finished: 1 run (0:00:01.2709725) ==========
+[15-Jan-20 00:08:47 Informational] Executing all tests in type 'DomainModelTests.ConfigurationTests'
+[15-Jan-20 00:08:47 Informational] ------ Run test started ------
+[15-Jan-20 00:08:48 Informational] ========== Run test finished: 12 run (0:00:01.1920194) ==========
+[15-Jan-20 00:09:04 Informational] ------ Run test started ------
+[15-Jan-20 00:09:24 Informational] ========== Run test finished: 66 run (0:00:20.4588483) ==========
+[15-Jan-20 00:17:06 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainIsValid'
+[15-Jan-20 00:17:06 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainIsValid'
+[15-Jan-20 00:17:06 Informational] ------ Run test started ------
+[15-Jan-20 00:17:08 Informational] ========== Run test finished: 1 run (0:00:01.6631895) ==========
+[15-Jan-20 00:19:36 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainIdSetGet'
+[15-Jan-20 00:19:36 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainIdSetGet'
+[15-Jan-20 00:19:36 Informational] ------ Run test started ------
+[15-Jan-20 00:19:37 Informational] ========== Run test finished: 1 run (0:00:01.6964855) ==========
+[15-Jan-20 00:19:45 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainIdDefaultIsZero'
+[15-Jan-20 00:19:46 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainIdDefaultIsZero'
+[15-Jan-20 00:19:46 Informational] ------ Run test started ------
+[15-Jan-20 00:19:47 Informational] ========== Run test finished: 1 run (0:00:01.314484) ==========
+[15-Jan-20 00:35:29 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameTooLong'
+[15-Jan-20 00:35:29 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameTooLong'
+[15-Jan-20 00:35:29 Informational] ------ Run test started ------
+[15-Jan-20 00:35:30 Informational] ========== Run test finished: 1 run (0:00:01.4654082) ==========
+[15-Jan-20 00:35:38 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameUpperBoundary'
+[15-Jan-20 00:35:38 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameUpperBoundary'
+[15-Jan-20 00:35:38 Informational] ------ Run test started ------
+[15-Jan-20 00:35:39 Informational] ========== Run test finished: 1 run (0:00:01.5042985) ==========
+[15-Jan-20 00:35:47 Informational] Executing test method 'DomainModelTests.DomainTests.TestBookTitleLowerBoundary'
+[15-Jan-20 00:35:47 Informational] Executing test method 'DomainModelTests.DomainTests.TestBookTitleLowerBoundary'
+[15-Jan-20 00:35:47 Informational] ------ Run test started ------
+[15-Jan-20 00:35:48 Informational] ========== Run test finished: 1 run (0:00:01.4697783) ==========
+[15-Jan-20 00:35:56 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameTooShort'
+[15-Jan-20 00:35:56 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameTooShort'
+[15-Jan-20 00:35:56 Informational] ------ Run test started ------
+[15-Jan-20 00:35:58 Informational] ========== Run test finished: 1 run (0:00:02.0241083) ==========
+[15-Jan-20 00:36:06 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameIsNotEmpty'
+[15-Jan-20 00:36:06 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameIsNotEmpty'
+[15-Jan-20 00:36:06 Informational] ------ Run test started ------
+[15-Jan-20 00:36:07 Informational] ========== Run test finished: 1 run (0:00:01.3683398) ==========
+[15-Jan-20 00:36:15 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameIsEmpty'
+[15-Jan-20 00:36:15 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameIsEmpty'
+[15-Jan-20 00:36:15 Informational] ------ Run test started ------
+[15-Jan-20 00:36:17 Informational] ========== Run test finished: 1 run (0:00:01.5209313) ==========
+[15-Jan-20 00:36:26 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameIsNotNull'
+[15-Jan-20 00:36:26 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameIsNotNull'
+[15-Jan-20 00:36:26 Informational] ------ Run test started ------
+[15-Jan-20 00:36:27 Informational] ========== Run test finished: 1 run (0:00:01.4471306) ==========
+[15-Jan-20 00:36:36 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameIsNull'
+[15-Jan-20 00:36:36 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainNameIsNull'
+[15-Jan-20 00:36:36 Informational] ------ Run test started ------
+[15-Jan-20 00:36:38 Informational] ========== Run test finished: 1 run (0:00:01.4501211) ==========
+[15-Jan-20 00:36:48 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainIdDefaultIsZero'
+[15-Jan-20 00:36:48 Informational] ------ Run test started ------
+[15-Jan-20 00:36:49 Informational] ========== Run test finished: 1 run (0:00:01.3179275) ==========
+[15-Jan-20 00:45:13 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigurationValueIsBig'
+[15-Jan-20 00:45:13 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigurationValueIsBig'
+[15-Jan-20 00:45:13 Informational] ------ Run test started ------
+[15-Jan-20 00:45:15 Informational] ========== Run test finished: 1 run (0:00:01.9936662) ==========
+[15-Jan-20 00:45:38 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigurationValueIsZero'
+[15-Jan-20 00:45:38 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigurationValueIsZero'
+[15-Jan-20 00:45:38 Informational] ------ Run test started ------
+[15-Jan-20 00:45:40 Informational] ========== Run test finished: 1 run (0:00:01.502979) ==========
+[15-Jan-20 00:45:49 Informational] Executing test method 'DomainModelTests.ConfigurationTests.TestConfigValueSmaller'
+[15-Jan-20 00:45:49 Informational] ------ Run test started ------
+[15-Jan-20 00:45:50 Informational] ========== Run test finished: 1 run (0:00:00.8985919) ==========
+[15-Jan-20 00:46:24 Informational] ------ Discover test started ------
+[15-Jan-20 00:46:26 Error] LoadProjectIdsAsync: Unable to fetch new VsProject after the original was Disposed
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<TryProjectActionAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<<get_ProjectOutput>b__30_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.get_ProjectOutput()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_1.<GetProjectIdsFromFilesAsync>b__2(ProjectDescriptor p)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<GetProjectIdsFromFilesAsync>g__FindOrQueue|1(TestFileDescriptor tfd, Queue`1 unmatched)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<<GetProjectIdsFromFilesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.<JoinAsync>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<GetProjectIdsFromFilesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<LoadProjectIdsAsync>d__33.MoveNext()
+[15-Jan-20 00:46:27 Informational] ========== Discover test finished: 78 found (0:00:02.3856206) ==========
+[15-Jan-20 00:46:37 Informational] ------ Run test started ------
+[15-Jan-20 00:46:51 Informational] ========== Run test finished: 78 run (0:00:14.027118) ==========
+[15-Jan-20 00:49:49 Informational] Executing test method 'DomainModelTests.DomainTests.TestParentDomainNotSelf'
+[15-Jan-20 00:49:49 Informational] Executing test method 'DomainModelTests.DomainTests.TestParentDomainNotSelf'
+[15-Jan-20 00:49:49 Informational] ------ Run test started ------
+[15-Jan-20 00:49:51 Informational] ========== Run test finished: 1 run (0:00:01.6322627) ==========
+[15-Jan-20 00:50:31 Informational] Executing test method 'DomainModelTests.DomainTests.TestParentDomainSelf'
+[15-Jan-20 00:50:31 Informational] Executing test method 'DomainModelTests.DomainTests.TestParentDomainSelf'
+[15-Jan-20 00:50:31 Informational] ------ Run test started ------
+[15-Jan-20 00:50:33 Informational] ========== Run test finished: 1 run (0:00:01.1489373) ==========
+[15-Jan-20 00:53:43 Informational] Executing test method 'DomainModelTests.DomainTests.TestParentDomainNotNull'
+[15-Jan-20 00:53:43 Informational] Executing test method 'DomainModelTests.DomainTests.TestParentDomainNotNull'
+[15-Jan-20 00:53:43 Informational] ------ Run test started ------
+[15-Jan-20 00:53:45 Informational] ========== Run test finished: 1 run (0:00:01.3155265) ==========
+[15-Jan-20 00:53:52 Informational] Executing test method 'DomainModelTests.DomainTests.TestParentDomainSelf'
+[15-Jan-20 00:53:52 Informational] ------ Run test started ------
+[15-Jan-20 00:53:59 Informational] ========== Run test finished: 1 run (0:00:07.3328206) ==========
+[15-Jan-20 00:54:06 Informational] Executing test method 'DomainModelTests.DomainTests.TestParentDomainSelf'
+[15-Jan-20 00:54:06 Informational] ------ Run test started ------
+[15-Jan-20 00:54:08 Informational] ========== Run test finished: 1 run (0:00:01.3308659) ==========
+[15-Jan-20 00:57:25 Informational] Executing test method 'DomainModelTests.DomainTests.TestParentDomainNotNull'
+[15-Jan-20 00:57:25 Informational] ------ Run test started ------
+[15-Jan-20 00:57:26 Informational] ========== Run test finished: 1 run (0:00:01.2037798) ==========
+[15-Jan-20 01:02:55 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainBooksNotEmpty'
+[15-Jan-20 01:02:56 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainBooksNotEmpty'
+[15-Jan-20 01:02:56 Informational] ------ Run test started ------
+[15-Jan-20 01:02:57 Informational] ========== Run test finished: 1 run (0:00:01.4910111) ==========
+[15-Jan-20 01:03:14 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainBooksNull'
+[15-Jan-20 01:03:14 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainBooksNull'
+[15-Jan-20 01:03:14 Informational] ------ Run test started ------
+[15-Jan-20 01:03:15 Informational] ========== Run test finished: 1 run (0:00:01.4244296) ==========
+[15-Jan-20 01:03:32 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainBooksEmpty'
+[15-Jan-20 01:03:32 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainBooksEmpty'
+[15-Jan-20 01:03:32 Informational] ------ Run test started ------
+[15-Jan-20 01:03:33 Informational] ========== Run test finished: 1 run (0:00:01.3564912) ==========
+[15-Jan-20 01:03:52 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainBooksNotNull'
+[15-Jan-20 01:03:52 Informational] Executing test method 'DomainModelTests.DomainTests.TestDomainBooksNotNull'
+[15-Jan-20 01:03:52 Informational] ------ Run test started ------
+[15-Jan-20 01:03:54 Informational] ========== Run test finished: 1 run (0:00:01.3932729) ==========
+[15-Jan-20 01:16:11 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionIsValid'
+[15-Jan-20 01:16:11 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionIsValid'
+[15-Jan-20 01:16:11 Informational] ------ Run test started ------
+[15-Jan-20 01:16:13 Informational] ========== Run test finished: 1 run (0:00:01.6987332) ==========
+[15-Jan-20 01:28:39 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionIdDefaultIsZero'
+[15-Jan-20 01:28:39 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionIdDefaultIsZero'
+[15-Jan-20 01:28:39 Informational] ------ Run test started ------
+[15-Jan-20 01:28:41 Informational] ========== Run test finished: 1 run (0:00:01.5787764) ==========
+[15-Jan-20 01:29:15 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionIdSetGet'
+[15-Jan-20 01:29:16 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionIdSetGet'
+[15-Jan-20 01:29:16 Informational] ------ Run test started ------
+[15-Jan-20 01:29:17 Informational] ========== Run test finished: 1 run (0:00:01.4874379) ==========
+[15-Jan-20 01:32:04 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookNotNull'
+[15-Jan-20 01:32:04 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookNotNull'
+[15-Jan-20 01:32:04 Informational] ------ Run test started ------
+[15-Jan-20 01:32:06 Informational] ========== Run test finished: 1 run (0:00:01.6751143) ==========
+[15-Jan-20 01:33:23 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookTitleNotNull'
+[15-Jan-20 01:33:23 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookTitleNotNull'
+[15-Jan-20 01:33:23 Informational] ------ Run test started ------
+[15-Jan-20 01:33:24 Informational] ========== Run test finished: 1 run (0:00:01.4251885) ==========
+[15-Jan-20 01:34:21 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookAuthorsNotNull'
+[15-Jan-20 01:34:21 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookAuthorsNotNull'
+[15-Jan-20 01:34:21 Informational] ------ Run test started ------
+[15-Jan-20 01:34:23 Informational] ========== Run test finished: 1 run (0:00:01.5937965) ==========
+[15-Jan-20 01:35:25 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookAuthorsNotEmpty'
+[15-Jan-20 01:35:25 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookAuthorsNotEmpty'
+[15-Jan-20 01:35:25 Informational] ------ Run test started ------
+[15-Jan-20 01:35:27 Informational] ========== Run test finished: 1 run (0:00:01.3958752) ==========
+[15-Jan-20 01:36:29 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookAuthorsNotEmpty'
+[15-Jan-20 01:36:29 Informational] ------ Run test started ------
+[15-Jan-20 01:36:30 Informational] ========== Run test finished: 1 run (0:00:01.3973606) ==========
+[15-Jan-20 01:36:57 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookAuthorsNotEmpty'
+[15-Jan-20 01:36:57 Informational] ------ Run test started ------
+[15-Jan-20 01:36:58 Informational] ========== Run test finished: 1 run (0:00:01.164883) ==========
+[15-Jan-20 01:37:56 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookAuthorsNull'
+[15-Jan-20 01:37:56 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookAuthorsNull'
+[15-Jan-20 01:37:56 Informational] ------ Run test started ------
+[15-Jan-20 01:37:57 Informational] ========== Run test finished: 1 run (0:00:01.2715984) ==========
+[15-Jan-20 01:39:51 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookAuthorsEmpty'
+[15-Jan-20 01:39:51 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookAuthorsEmpty'
+[15-Jan-20 01:39:51 Informational] ------ Run test started ------
+[15-Jan-20 01:39:53 Informational] ========== Run test finished: 1 run (0:00:01.4610912) ==========
+[15-Jan-20 01:42:38 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookDomainsNotNull'
+[15-Jan-20 01:42:38 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookDomainsNotNull'
+[15-Jan-20 01:42:38 Informational] ------ Run test started ------
+[15-Jan-20 01:42:39 Informational] ========== Run test finished: 1 run (0:00:01.7057951) ==========
+[15-Jan-20 01:42:56 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookDomainsNull'
+[15-Jan-20 01:42:56 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookDomainsNull'
+[15-Jan-20 01:42:56 Informational] ------ Run test started ------
+[15-Jan-20 01:42:57 Informational] ========== Run test finished: 1 run (0:00:01.4849327) ==========
+[15-Jan-20 01:43:11 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookDomainsNotEmpty'
+[15-Jan-20 01:43:11 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookDomainsNotEmpty'
+[15-Jan-20 01:43:11 Informational] ------ Run test started ------
+[15-Jan-20 01:43:13 Informational] ========== Run test finished: 1 run (0:00:01.3192986) ==========
+[15-Jan-20 01:43:31 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookDomainsEmpty'
+[15-Jan-20 01:43:31 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookDomainsEmpty'
+[15-Jan-20 01:43:31 Informational] ------ Run test started ------
+[15-Jan-20 01:43:32 Informational] ========== Run test finished: 1 run (0:00:01.4992475) ==========
+[15-Jan-20 01:47:58 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookEditionsNotNull'
+[15-Jan-20 01:47:58 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookEditionsNotNull'
+[15-Jan-20 01:47:58 Informational] ------ Run test started ------
+[15-Jan-20 01:48:00 Informational] ========== Run test finished: 1 run (0:00:01.8091601) ==========
+[15-Jan-20 01:48:15 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookEditionsNull'
+[15-Jan-20 01:48:15 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookEditionsNull'
+[15-Jan-20 01:48:15 Informational] ------ Run test started ------
+[15-Jan-20 01:48:16 Informational] ========== Run test finished: 1 run (0:00:01.4821744) ==========
+[15-Jan-20 01:48:34 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookEditionsNotEmpty'
+[15-Jan-20 01:48:34 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookEditionsNotEmpty'
+[15-Jan-20 01:48:34 Informational] ------ Run test started ------
+[15-Jan-20 01:48:35 Informational] ========== Run test finished: 1 run (0:00:01.3823027) ==========
+[15-Jan-20 01:48:54 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookEditionsEmpty'
+[15-Jan-20 01:48:54 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionBookEditionsEmpty'
+[15-Jan-20 01:48:54 Informational] ------ Run test started ------
+[15-Jan-20 01:48:56 Informational] ========== Run test finished: 1 run (0:00:01.4989631) ==========
+[15-Jan-20 01:57:43 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameTooLong'
+[15-Jan-20 01:57:43 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameTooLong'
+[15-Jan-20 01:57:43 Informational] ------ Run test started ------
+[15-Jan-20 01:57:45 Informational] ========== Run test finished: 1 run (0:00:01.7219263) ==========
+[15-Jan-20 01:58:04 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameUpperBoundary'
+[15-Jan-20 01:58:04 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameUpperBoundary'
+[15-Jan-20 01:58:04 Informational] ------ Run test started ------
+[15-Jan-20 01:58:05 Informational] ========== Run test finished: 1 run (0:00:01.5048868) ==========
+[15-Jan-20 01:58:19 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameLowerBoundary'
+[15-Jan-20 01:58:20 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameLowerBoundary'
+[15-Jan-20 01:58:20 Informational] ------ Run test started ------
+[15-Jan-20 01:58:27 Informational] ========== Run test finished: 1 run (0:00:07.5352406) ==========
+[15-Jan-20 01:58:40 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameTooShort'
+[15-Jan-20 01:58:40 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameTooShort'
+[15-Jan-20 01:58:40 Informational] ------ Run test started ------
+[15-Jan-20 01:58:42 Informational] ========== Run test finished: 1 run (0:00:01.3367104) ==========
+[15-Jan-20 01:58:54 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameIsNotEmpty'
+[15-Jan-20 01:58:54 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameIsNotEmpty'
+[15-Jan-20 01:58:54 Informational] ------ Run test started ------
+[15-Jan-20 01:58:56 Informational] ========== Run test finished: 1 run (0:00:01.4730596) ==========
+[15-Jan-20 01:59:14 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameIsEmpty'
+[15-Jan-20 01:59:14 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameIsEmpty'
+[15-Jan-20 01:59:14 Informational] ------ Run test started ------
+[15-Jan-20 01:59:15 Informational] ========== Run test finished: 1 run (0:00:01.6586599) ==========
+[15-Jan-20 01:59:28 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameIsNotNull'
+[15-Jan-20 01:59:28 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameIsNotNull'
+[15-Jan-20 01:59:28 Informational] ------ Run test started ------
+[15-Jan-20 01:59:30 Informational] ========== Run test finished: 1 run (0:00:01.4422129) ==========
+[15-Jan-20 01:59:48 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameIsNull'
+[15-Jan-20 01:59:48 Informational] Executing test method 'DomainModelTests.EditionTests.TestPublisherNameIsNull'
+[15-Jan-20 01:59:48 Informational] ------ Run test started ------
+[15-Jan-20 01:59:49 Informational] ========== Run test finished: 1 run (0:00:01.2406807) ==========
+[15-Jan-20 02:05:10 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearNegative'
+[15-Jan-20 02:05:10 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearNegative'
+[15-Jan-20 02:05:11 Informational] ------ Run test started ------
+[15-Jan-20 02:05:12 Informational] ========== Run test finished: 1 run (0:00:01.2260285) ==========
+[15-Jan-20 02:05:26 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearIsZero'
+[15-Jan-20 02:05:26 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearIsZero'
+[15-Jan-20 02:05:26 Informational] ------ Run test started ------
+[15-Jan-20 02:05:27 Informational] ========== Run test finished: 1 run (0:00:01.3154808) ==========
+[15-Jan-20 02:07:31 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearUpperBoundary'
+[15-Jan-20 02:07:31 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearUpperBoundary'
+[15-Jan-20 02:07:31 Informational] ------ Run test started ------
+[15-Jan-20 02:07:33 Informational] ========== Run test finished: 1 run (0:00:01.397262) ==========
+[15-Jan-20 02:07:48 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearLowerBoundary'
+[15-Jan-20 02:07:48 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearLowerBoundary'
+[15-Jan-20 02:07:48 Informational] ------ Run test started ------
+[15-Jan-20 02:07:50 Informational] ========== Run test finished: 1 run (0:00:01.4019426) ==========
+[15-Jan-20 02:08:57 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearTooBig'
+[15-Jan-20 02:08:57 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearTooBig'
+[15-Jan-20 02:08:57 Informational] ------ Run test started ------
+[15-Jan-20 02:08:59 Informational] ========== Run test finished: 1 run (0:00:01.8370858) ==========
+[15-Jan-20 02:10:06 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearTooSmall'
+[15-Jan-20 02:10:06 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionYearTooSmall'
+[15-Jan-20 02:10:06 Informational] ------ Run test started ------
+[15-Jan-20 02:10:08 Informational] ========== Run test finished: 1 run (0:00:01.4700676) ==========
+[15-Jan-20 02:11:48 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberNegative'
+[15-Jan-20 02:11:48 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberNegative'
+[15-Jan-20 02:11:48 Informational] ------ Run test started ------
+[15-Jan-20 02:11:49 Informational] ========== Run test finished: 1 run (0:00:01.4088083) ==========
+[15-Jan-20 02:11:59 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberIsZero'
+[15-Jan-20 02:11:59 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberIsZero'
+[15-Jan-20 02:11:59 Informational] ------ Run test started ------
+[15-Jan-20 02:12:01 Informational] ========== Run test finished: 1 run (0:00:01.9192075) ==========
+[15-Jan-20 02:17:11 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeIsNull'
+[15-Jan-20 02:17:11 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeIsNull'
+[15-Jan-20 02:17:11 Informational] ------ Run test started ------
+[15-Jan-20 02:17:13 Informational] ========== Run test finished: 1 run (0:00:01.229671) ==========
+[15-Jan-20 02:17:31 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeIsNotNull'
+[15-Jan-20 02:17:31 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeIsNotNull'
+[15-Jan-20 02:17:31 Informational] ------ Run test started ------
+[15-Jan-20 02:17:33 Informational] ========== Run test finished: 1 run (0:00:01.3154971) ==========
+[15-Jan-20 02:17:46 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeIsEmpty'
+[15-Jan-20 02:17:46 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeIsEmpty'
+[15-Jan-20 02:17:46 Informational] ------ Run test started ------
+[15-Jan-20 02:17:48 Informational] ========== Run test finished: 1 run (0:00:01.4750537) ==========
+[15-Jan-20 02:18:07 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeIsNotEmpty'
+[15-Jan-20 02:18:07 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeIsNotEmpty'
+[15-Jan-20 02:18:07 Informational] ------ Run test started ------
+[15-Jan-20 02:18:09 Informational] ========== Run test finished: 1 run (0:00:01.4770483) ==========
+[15-Jan-20 02:18:22 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeTooShort'
+[15-Jan-20 02:18:23 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeTooShort'
+[15-Jan-20 02:18:23 Informational] ------ Run test started ------
+[15-Jan-20 02:18:24 Informational] ========== Run test finished: 1 run (0:00:01.4291771) ==========
+[15-Jan-20 02:18:36 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeLowerBoundary'
+[15-Jan-20 02:18:36 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeLowerBoundary'
+[15-Jan-20 02:18:36 Informational] ------ Run test started ------
+[15-Jan-20 02:18:38 Informational] ========== Run test finished: 1 run (0:00:01.5737901) ==========
+[15-Jan-20 02:18:49 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeUpperBoundary'
+[15-Jan-20 02:18:49 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeUpperBoundary'
+[15-Jan-20 02:18:49 Informational] ------ Run test started ------
+[15-Jan-20 02:18:51 Informational] ========== Run test finished: 1 run (0:00:01.3453171) ==========
+[15-Jan-20 02:19:05 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeTooLong'
+[15-Jan-20 02:19:05 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionTypeTooLong'
+[15-Jan-20 02:19:05 Informational] ------ Run test started ------
+[15-Jan-20 02:19:07 Informational] ========== Run test finished: 1 run (0:00:01.3583615) ==========
+[15-Jan-20 02:20:54 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfPagesIsZero'
+[15-Jan-20 02:20:54 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfPagesIsZero'
+[15-Jan-20 02:20:54 Informational] ------ Run test started ------
+[15-Jan-20 02:20:56 Informational] ========== Run test finished: 1 run (0:00:01.5021925) ==========
+[15-Jan-20 02:21:08 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfPagesNegative'
+[15-Jan-20 02:21:08 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfPagesNegative'
+[15-Jan-20 02:21:08 Informational] ------ Run test started ------
+[15-Jan-20 02:21:10 Informational] ========== Run test finished: 1 run (0:00:01.4321697) ==========
+[15-Jan-20 02:22:32 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfCopiesNegative'
+[15-Jan-20 02:22:33 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfCopiesNegative'
+[15-Jan-20 02:22:33 Informational] ------ Run test started ------
+[15-Jan-20 02:22:34 Informational] ========== Run test finished: 1 run (0:00:01.344403) ==========
+[15-Jan-20 02:22:45 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfCopiesIsZero'
+[15-Jan-20 02:22:45 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfCopiesIsZero'
+[15-Jan-20 02:22:45 Informational] ------ Run test started ------
+[15-Jan-20 02:22:47 Informational] ========== Run test finished: 1 run (0:00:01.2932576) ==========
+[15-Jan-20 02:24:22 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesNegative'
+[15-Jan-20 02:24:22 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesNegative'
+[15-Jan-20 02:24:22 Informational] ------ Run test started ------
+[15-Jan-20 02:24:24 Informational] ========== Run test finished: 1 run (0:00:01.5046945) ==========
+[15-Jan-20 02:24:39 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesIsZero'
+[15-Jan-20 02:24:39 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesIsZero'
+[15-Jan-20 02:24:39 Informational] ------ Run test started ------
+[15-Jan-20 02:24:41 Informational] ========== Run test finished: 1 run (0:00:01.7570683) ==========
+[15-Jan-20 02:28:49 Warning] Build failed or it was cancelled.
+[15-Jan-20 02:30:03 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesEqualToNumberOfCopies'
+[15-Jan-20 02:30:04 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesEqualToNumberOfCopies'
+[15-Jan-20 02:30:04 Informational] ------ Run test started ------
+[15-Jan-20 02:30:05 Informational] ========== Run test finished: 1 run (0:00:01.4770966) ==========
+[15-Jan-20 02:31:44 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesEqualToNumberOfCopies'
+[15-Jan-20 02:31:44 Informational] ------ Run test started ------
+[15-Jan-20 02:31:45 Informational] ========== Run test finished: 1 run (0:00:01.2267193) ==========
+[15-Jan-20 02:33:08 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesBiggerThanNumberOfCopies'
+[15-Jan-20 02:33:08 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesBiggerThanNumberOfCopies'
+[15-Jan-20 02:33:08 Informational] ------ Run test started ------
+[15-Jan-20 02:33:10 Informational] ========== Run test finished: 1 run (0:00:01.9177642) ==========
+[15-Jan-20 02:33:35 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesBiggerThanNumberOfCopies'
+[15-Jan-20 02:33:35 Informational] ------ Run test started ------
+[15-Jan-20 02:33:36 Informational] ========== Run test finished: 1 run (0:00:01.650312) ==========
+[15-Jan-20 02:34:47 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesBiggerThanNumberOfCopies'
+[15-Jan-20 02:34:47 Informational] ------ Run test started ------
+[15-Jan-20 02:34:48 Informational] ========== Run test finished: 1 run (0:00:01.1003698) ==========
+[15-Jan-20 02:38:02 Informational] Executing test method 'DomainModelTests.EditionTests.TestEditionNumberOfLectureRoomCopiesBiggerThanNumberOfCopies'
+[15-Jan-20 02:38:02 Informational] ------ Run test started ------
+[15-Jan-20 02:38:03 Informational] ========== Run test finished: 1 run (0:00:01.1188009) ==========
+[15-Jan-20 02:38:46 Informational] ------ Discover test started ------
+[15-Jan-20 02:38:48 Error] LoadProjectIdsAsync: Unable to fetch new VsProject after the original was Disposed
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<TryProjectActionAsync>d__28`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.<<get_ProjectOutput>b__30_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.CompleteOnCurrentThread()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.ProjectDescriptor.get_ProjectOutput()
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_1.<GetProjectIdsFromFilesAsync>b__2(ProjectDescriptor p)
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<GetProjectIdsFromFilesAsync>g__FindOrQueue|1(TestFileDescriptor tfd, Queue`1 unmatched)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<>c__DisplayClass35_0.<<GetProjectIdsFromFilesAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.Threading.JoinableTask.<JoinAsync>d__78.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<GetProjectIdsFromFilesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.VisualStudio.TestWindow.VsAdapters.VsProjectDiscoverer.<LoadProjectIdsAsync>d__33.MoveNext()
+[15-Jan-20 02:38:49 Informational] ========== Discover test finished: 133 found (0:00:02.4482214) ==========
+[15-Jan-20 02:38:49 Informational] ------ Run test started ------
+[15-Jan-20 02:39:02 Informational] ========== Run test finished: 133 run (0:00:13.7587015) ==========
+[15-Jan-20 16:57:04 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderIsValid'
+[15-Jan-20 16:57:04 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderIsValid'
+[15-Jan-20 16:57:04 Informational] ------ Run test started ------
+[15-Jan-20 16:57:07 Informational] ========== Run test finished: 1 run (0:00:02.486115) ==========
+[15-Jan-20 16:58:24 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderIdDefaultIsZero'
+[15-Jan-20 16:58:24 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderIdDefaultIsZero'
+[15-Jan-20 16:58:24 Informational] ------ Run test started ------
+[15-Jan-20 16:58:26 Informational] ========== Run test finished: 1 run (0:00:01.4192038) ==========
+[15-Jan-20 16:58:44 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderIdSetGet'
+[15-Jan-20 16:58:44 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderIdSetGet'
+[15-Jan-20 16:58:44 Informational] ------ Run test started ------
+[15-Jan-20 16:58:45 Informational] ========== Run test finished: 1 run (0:00:01.3003523) ==========
+[15-Jan-20 17:09:00 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameTooLong'
+[15-Jan-20 17:09:00 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameTooLong'
+[15-Jan-20 17:09:00 Informational] ------ Run test started ------
+[15-Jan-20 17:09:02 Informational] ========== Run test finished: 1 run (0:00:02.1621683) ==========
+[15-Jan-20 17:09:22 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameUpperBoundary'
+[15-Jan-20 17:09:22 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameUpperBoundary'
+[15-Jan-20 17:09:22 Informational] ------ Run test started ------
+[15-Jan-20 17:09:24 Informational] ========== Run test finished: 1 run (0:00:01.2436726) ==========
+[15-Jan-20 17:09:38 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameLowerBoundary'
+[15-Jan-20 17:09:38 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameLowerBoundary'
+[15-Jan-20 17:09:38 Informational] ------ Run test started ------
+[15-Jan-20 17:09:40 Informational] ========== Run test finished: 1 run (0:00:01.5179443) ==========
+[15-Jan-20 17:09:58 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameTooShort'
+[15-Jan-20 17:09:58 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameTooShort'
+[15-Jan-20 17:09:58 Informational] ------ Run test started ------
+[15-Jan-20 17:09:59 Informational] ========== Run test finished: 1 run (0:00:01.4748579) ==========
+[15-Jan-20 17:10:12 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameIsNotEmpty'
+[15-Jan-20 17:10:12 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameIsNotEmpty'
+[15-Jan-20 17:10:12 Informational] ------ Run test started ------
+[15-Jan-20 17:10:13 Informational] ========== Run test finished: 1 run (0:00:01.4471803) ==========
+[15-Jan-20 17:10:47 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameIsNotEmpty'
+[15-Jan-20 17:10:47 Informational] ------ Run test started ------
+[15-Jan-20 17:10:48 Informational] ========== Run test finished: 1 run (0:00:01.053249) ==========
+[15-Jan-20 17:11:01 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameIsEmpty'
+[15-Jan-20 17:11:01 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameIsEmpty'
+[15-Jan-20 17:11:01 Informational] ------ Run test started ------
+[15-Jan-20 17:11:02 Informational] ========== Run test finished: 1 run (0:00:01.3270929) ==========
+[15-Jan-20 17:11:24 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameIsNotNull'
+[15-Jan-20 17:11:25 Informational] Executing test method 'DomainModelTests.ReaderTests.TestReaderNameIsNotNull'
+[15-Jan-20 17:11:25 Informational] ------ Run test started ------
+[15-Jan-20 17:11:26 Informational] ========== Run test finished: 1 run (0:00:01.4182374) ==========

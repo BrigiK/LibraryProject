@@ -26,27 +26,27 @@ namespace LibraryProject.DataMapper
 
         /// <summary>Gets or sets the authors.</summary>
         /// <value>The authors.</value>
-        public DbSet<Author> Authors { get; set; }
+        public virtual DbSet<Author> Authors { get; set; }
 
         /// <summary>Gets or sets the books.</summary>
         /// <value>The books.</value>
-        public DbSet<Book> Books { get; set; }
+        public virtual DbSet<Book> Books { get; set; }
 
         /// <summary>Gets or sets the domains.</summary>
         /// <value>The domains.</value>
-        public DbSet<Domain> Domains { get; set; }
+        public virtual DbSet<Domain> Domains { get; set; }
 
         /// <summary>Gets or sets the editions.</summary>
         /// <value>The editions.</value>
-        public DbSet<Edition> Editions { get; set; }
+        public virtual DbSet<Edition> Editions { get; set; }
 
         /// <summary>Gets or sets the readers.</summary>
         /// <value>The readers.</value>
-        public DbSet<Reader> Readers { get; set; }
+        public virtual DbSet<Reader> Readers { get; set; }
 
         /// <summary>Gets or sets the configurations.</summary>
         /// <value>The configurations.</value>
-        public DbSet<Configuration> Configurations { get; set; }
+        public virtual DbSet<Configuration> Configurations { get; set; }
 
         /// <summary>
         /// This method is called when the model for a derived context has been initialized, but

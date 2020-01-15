@@ -1456,3 +1456,1012 @@
 2020-01-15 02:39:02,392 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
 2020-01-15 02:39:02,393 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
 2020-01-15 02:39:02,479 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-15 19:44:45,836 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:44:46,112 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:44:49,413 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:44:49,654 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:49,655 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:44:49,686 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:49,686 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:44:49,746 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:49,746 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:44:49,835 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:49,836 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:44:49,951 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:44:49,951 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:44:50,390 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:44:50,402 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:50,402 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:44:50,414 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:50,414 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:44:50,443 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:50,444 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:44:50,521 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:50,522 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:44:50,524 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:44:50,525 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:44:50,901 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:44:50,912 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:50,912 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:44:50,923 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:50,923 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:44:50,948 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:50,948 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:44:51,033 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:51,033 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:44:51,037 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:44:51,038 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:44:51,038 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:44:51,396 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:44:51,403 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:51,404 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:44:51,415 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:51,415 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:44:51,442 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:51,442 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:44:51,460 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:51,460 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:44:51,463 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:44:51,464 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:44:51,464 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:44:51,863 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:44:51,870 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:51,871 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:44:51,880 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:51,880 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:44:51,903 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:51,904 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:44:51,992 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:51,992 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:44:51,995 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:44:51,995 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:44:51,995 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:44:52,643 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:44:52,653 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:52,653 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:44:52,665 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:52,666 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:44:52,686 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:52,686 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:44:52,701 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:52,702 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:44:52,706 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 19:44:52,707 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:44:52,708 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:44:53,456 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:44:53,465 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:53,465 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:44:53,478 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:53,479 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:44:53,504 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:53,505 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:44:53,524 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:53,524 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:44:53,527 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:44:53,527 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:44:54,183 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:44:54,194 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:54,195 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:44:54,207 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:54,208 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:44:54,345 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:54,346 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:44:54,370 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:54,370 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:44:54,373 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 19:44:54,375 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-15 19:44:54,376 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:44:55,124 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:44:55,136 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:55,136 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:44:55,149 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:55,150 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:44:55,175 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:55,175 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:44:55,194 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:44:55,194 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:47:42,709 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:47:42,943 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:47:46,305 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:47:46,529 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:46,530 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:47:46,563 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:46,563 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:47:46,631 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:46,632 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:47:46,717 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:46,718 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:47:46,840 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:47:46,840 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:47:47,340 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:47:47,350 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:47,350 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:47:47,364 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:47,364 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:47:47,387 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:47,388 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:47:47,469 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:47,470 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:47:47,473 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:47:47,473 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:47:47,840 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:47:47,849 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:47,849 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:47:47,857 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:47,858 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:47:47,885 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:47,885 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:47:47,902 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:47,902 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:47:47,905 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:47:47,906 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:47:47,906 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:47:48,316 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:47:48,325 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:48,325 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:47:48,339 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:48,339 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:47:48,363 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:48,363 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:47:48,382 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:48,382 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:47:48,385 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:47:48,385 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:47:48,385 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:47:48,843 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:47:48,853 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:48,853 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:47:48,866 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:48,867 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:47:48,890 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:48,891 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:47:48,910 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:48,911 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:47:48,913 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:47:48,914 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:47:48,914 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:47:49,252 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:47:49,260 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:49,260 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:47:49,271 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:49,271 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:47:49,296 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:49,296 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:47:49,375 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:49,376 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:47:49,380 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 19:47:49,382 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:47:49,383 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:47:49,788 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:47:49,800 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:49,801 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:47:49,811 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:49,811 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:47:49,845 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:49,845 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:47:49,863 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:49,864 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:47:49,866 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:47:49,866 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:47:50,246 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:47:50,257 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:50,257 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:47:50,267 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:50,267 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:47:50,290 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:50,290 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:47:50,367 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:50,367 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:47:50,371 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 19:47:50,372 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-15 19:47:50,373 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:47:50,717 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:47:50,726 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:50,726 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:47:50,739 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:50,739 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:47:50,758 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:50,759 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:47:50,776 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:47:50,776 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:51:03,038 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:51:03,527 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:51:07,580 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:51:07,813 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:07,813 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:51:07,846 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:07,846 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:51:07,896 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:07,897 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:51:07,989 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:07,990 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:51:08,173 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 19:51:08,175 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:51:08,176 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:51:08,177 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:51:08,546 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:51:08,556 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:08,556 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:51:08,567 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:08,567 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:51:08,592 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:08,593 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:51:08,669 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:08,669 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:51:08,673 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:51:08,673 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:51:08,981 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:51:08,991 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:08,991 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:51:09,001 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,001 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:51:09,026 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,026 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:51:09,043 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,044 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:51:09,046 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:51:09,047 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:51:09,047 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:51:09,406 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:51:09,415 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,416 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:51:09,426 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,427 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:51:09,447 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,447 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:51:09,463 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,463 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:51:09,466 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:51:09,467 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:51:09,809 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:51:09,816 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,817 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:51:09,824 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,825 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:51:09,848 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,848 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:51:09,862 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:09,862 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:51:09,866 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-15 19:51:09,866 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:51:10,214 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:51:10,222 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:10,223 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:51:10,233 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:10,233 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:51:10,254 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:10,254 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:51:10,268 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:10,268 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:51:10,271 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:51:10,271 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:51:10,271 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:51:10,721 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:51:10,729 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:10,729 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:51:10,744 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:10,744 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:51:10,763 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:10,764 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:51:10,778 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:10,778 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:51:10,781 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:51:10,782 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:51:11,140 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:51:11,150 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:11,151 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:51:11,163 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:11,164 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:51:11,184 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:11,184 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:51:11,263 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:11,263 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:51:11,268 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:51:11,268 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:51:11,657 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:51:11,665 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:11,665 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:51:11,673 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:11,673 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:51:11,691 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:11,691 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:51:11,704 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:51:11,705 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:51:11,708 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 19:53:37,311 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:53:37,580 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:53:41,273 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:53:41,496 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:41,496 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:53:41,531 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:41,532 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:53:41,588 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:41,588 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:53:41,676 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:41,677 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:53:41,816 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 19:53:41,818 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:53:41,819 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:53:41,819 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:53:42,166 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:53:42,174 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:42,174 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:53:42,187 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:42,188 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:53:42,211 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:42,211 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:53:42,228 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:42,228 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:53:42,231 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:53:42,232 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:53:42,576 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:53:42,590 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:42,590 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:53:42,600 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:42,601 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:53:42,626 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:42,627 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:53:42,698 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:42,699 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:53:42,701 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:53:42,702 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:53:42,702 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:53:43,061 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:53:43,070 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:43,070 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:53:43,080 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:43,080 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:53:43,105 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:43,105 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:53:43,121 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:43,121 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:53:43,123 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:53:43,124 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:53:43,474 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:53:43,484 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:43,484 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:53:43,498 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:43,498 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:53:43,525 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:43,525 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:53:43,596 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:43,596 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:53:43,600 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-15 19:53:43,601 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:53:43,987 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:53:44,051 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:44,051 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:53:44,063 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:44,063 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:53:44,085 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:44,085 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:53:44,157 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:44,157 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:53:44,160 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 19:53:44,161 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 19:53:44,161 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:53:44,544 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:53:44,552 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:44,552 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:53:44,562 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:44,562 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:53:44,605 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:44,605 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:53:44,625 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:44,625 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:53:44,628 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:53:44,629 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:53:45,043 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:53:45,054 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:45,055 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:53:45,065 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:45,065 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:53:45,089 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:45,089 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:53:45,114 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:45,114 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:53:45,116 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 19:53:45,117 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 19:53:45,570 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 19:53:45,577 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:45,577 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 19:53:45,588 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:45,588 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 19:53:45,611 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:45,612 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 19:53:45,624 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 19:53:45,625 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 19:53:45,629 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:00:27,709 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:00:27,950 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:00:31,340 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:00:31,560 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:31,561 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:00:31,597 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:31,598 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:00:31,668 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:31,668 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:00:31,714 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:31,715 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:00:31,827 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:00:31,828 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:00:32,245 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:00:32,256 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:32,256 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:00:32,265 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:32,266 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:00:32,290 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:32,291 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:00:32,383 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:32,383 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:00:32,386 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:00:32,386 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:00:32,882 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:00:32,892 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:32,894 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:00:32,911 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:32,911 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:00:32,939 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:32,939 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:00:32,956 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:32,956 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:00:32,959 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:00:32,960 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:00:32,960 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:00:33,378 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:00:33,386 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:33,387 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:00:33,397 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:33,397 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:00:33,420 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:33,421 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:00:33,512 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:33,513 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:00:33,518 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:00:33,518 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:00:33,519 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:00:34,000 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:00:34,011 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,011 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:00:34,020 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,021 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:00:34,044 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,045 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:00:34,065 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,065 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:00:34,068 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:00:34,068 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:00:34,069 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:00:34,376 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:00:34,386 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,386 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:00:34,395 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,395 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:00:34,417 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,417 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:00:34,432 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,433 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:00:34,436 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:00:34,442 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:00:34,442 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:00:34,828 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:00:34,840 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,840 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:00:34,854 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,855 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:00:34,879 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,879 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:00:34,896 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:34,896 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:00:34,899 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:00:34,899 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:00:35,290 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:00:35,300 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:35,301 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:00:35,310 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:35,310 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:00:35,333 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:35,333 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:00:35,349 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:35,349 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:00:35,353 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:00:35,355 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-15 20:00:35,355 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:00:35,716 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:00:35,725 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:35,725 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:00:35,737 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:35,738 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:00:35,760 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:35,760 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:00:35,779 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:00:35,779 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:02:19,319 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:02:19,576 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:02:23,171 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:02:23,395 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:23,397 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:02:23,430 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:23,430 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:02:23,495 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:23,496 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:02:23,585 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:23,586 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:02:23,750 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:02:23,752 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:02:24,199 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:02:24,215 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:24,215 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:02:24,225 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:24,226 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:02:24,251 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:24,251 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:02:24,326 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:24,326 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:02:24,331 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:02:24,332 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:02:24,756 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:02:24,765 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:24,765 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:02:24,774 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:24,774 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:02:24,796 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:24,797 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:02:24,813 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:24,814 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:02:24,819 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:02:24,820 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:02:24,820 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:02:25,189 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:02:25,198 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:25,199 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:02:25,209 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:25,209 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:02:25,229 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:25,229 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:02:25,245 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:25,245 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:02:25,248 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:02:25,248 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:02:25,249 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:02:25,587 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:02:25,598 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:25,598 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:02:25,608 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:25,608 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:02:25,633 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:25,633 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:02:25,712 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:25,712 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:02:25,715 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:02:25,715 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:02:25,715 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:02:26,018 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:02:26,028 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,028 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:02:26,039 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,039 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:02:26,061 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,061 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:02:26,077 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,077 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:02:26,082 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:02:26,084 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:02:26,084 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:02:26,439 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:02:26,450 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,450 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:02:26,460 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,461 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:02:26,483 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,483 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:02:26,560 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,560 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:02:26,566 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:02:26,567 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:02:26,936 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:02:26,945 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,945 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:02:26,953 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,954 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:02:26,976 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,976 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:02:26,991 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:26,992 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:02:26,995 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:02:26,997 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-15 20:02:26,998 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:02:27,333 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:02:27,342 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:27,342 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:02:27,354 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:27,354 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:02:27,375 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:27,375 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:02:27,391 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:02:27,392 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:10:58,729 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:10:59,041 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:02,952 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:11:03,167 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:03,168 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:11:03,200 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:03,201 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:11:03,263 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:03,264 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:11:03,357 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:03,358 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:11:03,497 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:03,498 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-15 20:11:03,508 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:04,131 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:04,131 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,136 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:04,136 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,145 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-15 20:11:04,145 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,171 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-15 20:11:04,191 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:11:04,193 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:11:04,194 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:11:04,194 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,203 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-15 20:11:04,204 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:04,204 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,209 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:04,209 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,213 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-15 20:11:04,213 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,332 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-15 20:11:04,333 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:11:04,333 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:11:04,334 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,337 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-15 20:11:04,338 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:04,338 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,341 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:11:04,342 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,374 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-15 20:11:04,374 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,381 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-15 20:11:04,390 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-15 20:11:04,391 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,395 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-15 20:11:04,401 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-15 20:11:04,402 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,405 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-15 20:11:04,412 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-15 20:11:04,413 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,416 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-15 20:11:04,416 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-15 20:11:04,418 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-15 20:11:04,418 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,436 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:11:04,437 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,570 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-15 20:11:04,571 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:11:04,571 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:11:04,571 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,578 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-15 20:11:04,579 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:04,579 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,589 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:11:04,589 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,601 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-15 20:11:04,601 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,606 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-15 20:11:04,606 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-15 20:11:04,607 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:04,607 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,611 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-15 20:11:04,612 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:04,617 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-15 20:11:04,619 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:11:22,302 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:22,619 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:26,350 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:11:26,582 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:26,582 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:11:26,613 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:26,614 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:11:26,668 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:26,668 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:11:26,770 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:26,771 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:11:26,797 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:26,798 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-15 20:11:26,811 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:11:27,525 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:27,525 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,530 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:27,530 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,538 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-15 20:11:27,538 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,567 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-15 20:11:27,586 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:11:27,589 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:11:27,590 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:11:27,591 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,606 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-15 20:11:27,606 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:27,607 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,613 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:27,613 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,618 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-15 20:11:27,618 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,809 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-15 20:11:27,810 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:11:27,810 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:11:27,811 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,819 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-15 20:11:27,820 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:27,820 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,825 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:11:27,825 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,853 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-15 20:11:27,853 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,861 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-15 20:11:27,872 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-15 20:11:27,873 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,877 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-15 20:11:27,886 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-15 20:11:27,886 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,890 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-15 20:11:27,904 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-15 20:11:27,904 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:27,964 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-15 20:11:27,964 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-15 20:11:27,966 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-15 20:11:27,967 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:28,039 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:11:28,040 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:28,058 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-15 20:11:28,059 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:11:28,059 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:11:28,060 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:28,068 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-15 20:11:28,069 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:28,069 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:28,075 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:11:28,075 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:28,087 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-15 20:11:28,087 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:28,092 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-15 20:11:28,092 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-15 20:11:28,093 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:11:28,094 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:28,099 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-15 20:11:28,100 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:11:28,105 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-15 20:11:28,107 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:13:23,766 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:13:24,127 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:27,987 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:13:28,287 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:13:28,288 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:13:28,345 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:13:28,347 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:13:28,409 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:13:28,409 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:13:28,455 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:13:28,456 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:13:28,491 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:13:28,491 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-15 20:13:28,504 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:13:29,270 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:13:29,270 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,276 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:13:29,276 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,291 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-15 20:13:29,291 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,317 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-15 20:13:29,358 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:13:29,363 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:13:29,365 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:13:29,365 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,376 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-15 20:13:29,380 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:13:29,380 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,430 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:13:29,430 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,435 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-15 20:13:29,435 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,548 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-15 20:13:29,551 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:13:29,551 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:13:29,552 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,602 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-15 20:13:29,605 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:13:29,605 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,611 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:13:29,612 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,638 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-15 20:13:29,639 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,699 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-15 20:13:29,762 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-15 20:13:29,762 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,771 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-15 20:13:29,784 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-15 20:13:29,784 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,788 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-15 20:13:29,793 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-15 20:13:29,794 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,798 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-15 20:13:29,798 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-15 20:13:29,804 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-15 20:13:29,805 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,871 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:13:29,872 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,936 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-15 20:13:29,938 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:13:29,938 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:13:29,939 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,944 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-15 20:13:29,947 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:13:29,947 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,955 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:13:29,956 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,965 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-15 20:13:29,966 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:29,971 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-15 20:13:29,971 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-15 20:13:29,975 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:13:29,975 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:30,026 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-15 20:13:30,026 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:13:30,086 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-15 20:13:30,091 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:14:17,450 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:14:17,760 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:21,479 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-15 20:14:21,937 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:14:21,939 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-15 20:14:21,975 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:14:21,976 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-15 20:14:22,037 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:14:22,038 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-15 20:14:22,138 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:14:22,139 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-15 20:14:22,218 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:14:22,219 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-15 20:14:22,233 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-15 20:14:22,940 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-15 20:14:22,940 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:22,965 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-15 20:14:22,974 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:14:22,975 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:22,979 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:14:22,979 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:22,984 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:14:22,984 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:22,990 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-15 20:14:22,990 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,012 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-15 20:14:23,017 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:14:23,017 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,021 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:14:23,022 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,025 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-15 20:14:23,025 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,194 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-15 20:14:23,198 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:14:23,199 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:14:23,200 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,213 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-15 20:14:23,215 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:14:23,216 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:14:23,216 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,221 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-15 20:14:23,224 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-15 20:14:23,224 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-15 20:14:23,225 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,229 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-15 20:14:23,236 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:14:23,240 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:14:23,241 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,247 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:14:23,247 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,282 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-15 20:14:23,282 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,290 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-15 20:14:23,291 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-15 20:14:23,293 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-15 20:14:23,293 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,351 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-15 20:14:23,351 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,422 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-15 20:14:23,422 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,429 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-15 20:14:23,439 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-15 20:14:23,439 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,443 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-15 20:14:23,452 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-15 20:14:23,452 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,458 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-15 20:14:23,467 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-15 20:14:23,467 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,471 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-15 20:14:23,471 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-15 20:14:23,475 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:14:23,485 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-15 20:14:23,486 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,505 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-15 20:14:23,506 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-15 20:14:23,576 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 00:55:27,779 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 00:55:28,064 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:31,383 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 00:55:31,606 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 00:55:31,607 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 00:55:31,642 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 00:55:31,642 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 00:55:31,699 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 00:55:31,699 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 00:55:31,788 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 00:55:31,788 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 00:55:31,861 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 00:55:31,861 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 00:55:31,871 [13] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 00:55:32,530 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 00:55:32,530 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,545 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 00:55:32,548 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 00:55:32,549 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,553 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 00:55:32,554 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,557 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 00:55:32,558 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,562 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 00:55:32,563 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,595 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 00:55:32,596 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 00:55:32,597 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,602 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 00:55:32,602 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,606 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 00:55:32,606 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,784 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 00:55:32,785 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 00:55:32,786 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 00:55:32,786 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,800 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 00:55:32,801 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 00:55:32,801 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 00:55:32,801 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,805 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 00:55:32,807 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 00:55:32,807 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 00:55:32,807 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,813 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 00:55:32,815 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 00:55:32,816 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 00:55:32,817 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,821 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 00:55:32,822 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,853 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 00:55:32,853 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,858 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 00:55:32,859 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 00:55:32,859 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 00:55:32,860 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,865 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 00:55:32,865 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,871 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 00:55:32,872 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,876 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 00:55:32,946 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 00:55:32,946 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:32,951 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 00:55:33,014 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 00:55:33,015 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:33,025 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 00:55:33,034 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 00:55:33,034 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:33,038 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 00:55:33,038 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 00:55:33,040 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 00:55:33,044 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 00:55:33,044 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:33,113 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 00:55:33,113 [13] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 00:55:33,186 [13] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
