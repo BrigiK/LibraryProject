@@ -31,9 +31,14 @@ namespace ServiceLayer.ServiceImplementation
             this.domainDataService = domainDataService;
         }
 
+        /// <summary>Adds the domain.</summary>
+        /// <param name="domain">The domain.</param>
         public void AddDomain(Domain domain)
         {
-            throw new NotImplementedException();
+            if (!domain.Name.Equals(string.Empty))
+            {
+                this.domainDataService.AddDomain(domain);
+            }
         }
 
         /// <summary>Deletes the domain.</summary>

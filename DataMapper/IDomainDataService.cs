@@ -53,5 +53,10 @@ namespace LibraryProject.DataLayer.DataMapper
         /// <param name="domain">The domain.</param>
         /// <returns>a a</returns>
         ICollection<Domain> GetChildDomains(Domain domain);
+
+        /// <summary>Gets the root domain.</summary>
+        /// <param name="domain">The domain.</param>
+        /// <returns>a a</returns>
+        Domain GetRootDomain(Domain domain);
     }
 }

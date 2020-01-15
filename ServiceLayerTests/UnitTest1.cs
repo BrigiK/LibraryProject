@@ -192,5 +192,28 @@ namespace ServiceLayerTests
 
             Assert.AreEqual(1, books.Count);
         }
+
+        /// <summary>Tests the get books from null author.</summary>
+        [TestMethod]
+        public void TestGetBooksFromNullAuthor()
+        {
+            IBookServices bsi = new BookServicesImplementation();
+            var books = bsi.GetBooksFromAuthor(null);
+
+            Assert.AreEqual(0, books.Count);
+        }
+
+        /// <summary>Tests the get books from author.</summary>
+        [TestMethod]
+        public void TestGetBooksFromAuthor()
+        {
+            IBookServices bsi = new BookServicesImplementation();
+            IAuthorServices asi = new AuthorServicesImplementation();
+
+            var author = asi.GetAuthorByName("Bert Bates");
+            var books = bsi.GetBooksFromAuthor(author);
+
+            Assert.AreEqual(1, books.Count);
+        }
     }
 }

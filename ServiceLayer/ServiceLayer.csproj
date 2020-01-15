@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="StyleCop, Version=6.1.0.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
+      <HintPath>..\packages\StyleCop.6.1.0\lib\net40\StyleCop.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,11 +53,16 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
     </Compile>
+    <Compile Include="ServiceImplementation\AuthorServicesImplementation.cs" />
     <Compile Include="ServiceImplementation\BookServicesImplementation.cs" />
     <Compile Include="ServiceImplementation\ConfigurationServiceImplementation.cs" />
     <Compile Include="ServiceImplementation\DomainServicesImplementation.cs" />
+    <Compile Include="ServiceImplementation\EditionServicesImplementation.cs" />
+    <Compile Include="ServiceImplementation\ReaderServicesImplementation.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataMapper\DataMapper.csproj">
       <Project>{485d1495-63ef-443d-8e36-b6187561cd3e}</Project>

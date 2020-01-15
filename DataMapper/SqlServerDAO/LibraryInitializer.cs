@@ -9,11 +9,15 @@ namespace LibraryProject.DataMapper
     using System.Collections.Generic;
     using System.Data.Entity.Validation;
     using LibraryProject.DomainModel;
+    using log4net;
 
     /// <summary>Initializes database with data.</summary>
     /// <seealso cref="System.Data.Entity.DropCreateDatabaseIfModelChanges{LibraryProject.DataAccessLayer.LibraryContext}" />
     internal class LibraryInitializer : System.Data.Entity.DropCreateDatabaseAlways<LibraryContext>
     {
+        /// <summary>The logger instance.</summary>
+        private static readonly ILog Log = LogManager.GetLogger(typeof(LibraryInitializer));
+
         /// <summary>A method that adds data to the context for seeding.</summary>
         /// <param name="context">The context to seed.</param>
         protected override void Seed(LibraryContext context)
@@ -31,9 +35,11 @@ namespace LibraryProject.DataMapper
                 new Author { Name = "Bert Bates" },
                 new Author { Name = "Kathy Sierra" }
             };
-            
+
+            Log.Info("Adding data to author entity.");
             authors.ForEach(a => context.Authors.Add(a));
             context.SaveChanges();
+            Log.Info("Data successfully added to database.");
 
             var editions = new List<Edition>
             {
@@ -49,8 +55,10 @@ namespace LibraryProject.DataMapper
                 new Edition { PublisherName = "O'Reilly Media, Incorporated", Year = 2003, Number = 2, Type = "Paperback", NumberOfPages = 656, NumberOfCopies = 8, NumberOfLectureRoomCopies = 4 },
             };
 
+            Log.Info("Adding data to edition entity.");
             editions.ForEach(e => context.Editions.Add(e));
             context.SaveChanges();
+            Log.Info("Data successfully added to database.");
 
             var domains = new List<Domain>
             {
@@ -97,8 +105,10 @@ namespace LibraryProject.DataMapper
                     new Domain { Name = "Caribbean", ParentDomain = domains[7] }
                 });
 
+            Log.Info("Adding data to domain entity.");
             domains.ForEach(d => context.Domains.Add(d));
             context.SaveChanges();
+            Log.Info("Data successfully added to database.");
 
             var books = new List<Book>
             {
@@ -139,8 +149,10 @@ namespace LibraryProject.DataMapper
                 },
             };
 
+            Log.Info("Adding data to book entity.");
             books.ForEach(b => context.Books.Add(b));
             context.SaveChanges();
+            Log.Info("Data successfully added to database.");
 
             var readers = new List<Reader>
             {
@@ -148,10 +160,10 @@ namespace LibraryProject.DataMapper
                 {
                     Name = "Name",
                     Username = "uname",
-                    Password = "pwd",
+                    Password = "pwdvdvgvgrgr",
                     IsReader = true,
                     IsWorker = false,
-                    Email = "dvbj",
+                    Email = "unam@gmail.com",
                     Books = new List<Book>
                     {
                         books[0]
@@ -159,8 +171,10 @@ namespace LibraryProject.DataMapper
                 }
             };
 
+            Log.Info("Adding data to reader entity.");
             readers.ForEach(r => context.Readers.Add(r));
             context.SaveChanges();
+            Log.Info("Data successfully added to database.");
 
             var configurations = new List<Configuration>
             {
@@ -216,8 +230,10 @@ namespace LibraryProject.DataMapper
                 }
             };
 
+            Log.Info("Adding data to configuration entity.");
             configurations.ForEach(c => context.Configurations.Add(c));
             context.SaveChanges();
+            Log.Info("Data successfully added to database.");
         }
     }
 }

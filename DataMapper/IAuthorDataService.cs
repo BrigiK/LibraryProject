@@ -43,5 +43,10 @@ namespace LibraryProject.DataLayer.DataMapper
         /// </summary>
         /// <param name="author">The author.</param>
         void UpdateAuthor(Author author);
+
+        /// <summary>Gets the author by name.</summary>
+        /// <param name="name">The name.</param>
+        /// <returns>a a</returns>
+        Author GetAuthorByName(string name);
     }
 }

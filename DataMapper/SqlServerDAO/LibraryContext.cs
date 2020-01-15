@@ -8,14 +8,19 @@ namespace LibraryProject.DataMapper
     using System.Data.Entity;
     using System.Data.Entity.ModelConfiguration.Conventions;
     using DomainModel;
+    using log4net;
 
     /// <summary>The main class that coordinates Entity Framework functionality for a given data model.</summary>
     /// <seealso cref="System.Data.Entity.DbContext" />
     public class LibraryContext : DbContext
     {
+        /// <summary>The logger instance.</summary>
+        private static readonly ILog Log = LogManager.GetLogger(typeof(LibraryContext));
+
         /// <summary>Initializes a new instance of the <see cref="LibraryContext"/> class.</summary>
         public LibraryContext() : base("name=connStr")
         {
+            Log.Info("Setting the initializer for the database.");
             Database.SetInitializer(new LibraryInitializer());
         }
 

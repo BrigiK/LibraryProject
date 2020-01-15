@@ -60,6 +60,7 @@ namespace LibraryTest
 
         /// <summary>Tests the add empty author list to book.</summary>
         [TestMethod]
+        [ExpectedException(typeof(System.Data.Entity.Validation.DbEntityValidationException), "Trying to add empty author list to book.")]
         public void TestAddEmptyAuthorListToBook()
         {
             Book book;

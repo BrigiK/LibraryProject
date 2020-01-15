@@ -58,5 +58,10 @@ namespace ServiceLayer
         /// <param name="book">The book.</param>
         /// <returns>a a</returns>
         bool BookDomainContainsParentDomain(Book book);
+
+        /// <summary>Gets the books from author.</summary>
+        /// <param name="author">The author.</param>
+        /// <returns>a a</returns>
+        ICollection<Book> GetBooksFromAuthor(Author author);
     }
 }

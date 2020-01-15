@@ -12,25 +12,33 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
     using System.Threading.Tasks;
     using LibraryProject.DataMapper;
     using LibraryProject.DomainModel;
+    using log4net;
 
     /// <summary>SQL Author Data Service.</summary>
     public class SQLAuthorDataService : IAuthorDataService
     {
+        /// <summary>The logger instance.</summary>
+        private static readonly ILog Log = LogManager.GetLogger(typeof(SQLAuthorDataService));
+
         /// <summary>Adds the author.</summary>
         /// <param name="author">The author.</param>
         public void AddAuthor(Author author)
         {
+            Log.Info("Add new author.");
             using (var context = new LibraryContext())
             {
                 context.Authors.Add(author);
                 context.SaveChanges();
             }
+
+            Log.Info("New author successfully added.");
         }
 
         /// <summary>Deletes the author.</summary>
         /// <param name="author">The author.</param>
         public void DeleteAuthor(Author author)
         {
+            Log.Info("Delete author.");
             using (var context = new LibraryContext())
             {
                 var newAuthor = new Author { ID = author.ID };
@@ -38,12 +46,15 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
                 context.Authors.Remove(newAuthor);
                 context.SaveChanges();
             }
+
+            Log.Info("Author successfully deleted.");
         }
 
         /// <summary>Gets all authors.</summary>
         /// <returns>a a</returns>
         public IList<Author> GetAllAuthors()
         {
+            Log.Info("Getting all authors.");
             using (var context = new LibraryContext())
             {
                 return context.Authors.Select(author => author).ToList();
@@ -55,6 +66,7 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
         /// <returns>a a</returns>
         public Author GetAuthorById(int id)
         {
+            Log.Info("Getting author by id.");
             using (var context = new LibraryContext())
             {
                 return context.Authors.Where(author => author.ID == id).SingleOrDefault();
@@ -66,6 +78,7 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
         /// <exception cref="System.Collections.Generic.KeyNotFoundException">e e</exception>
         public void UpdateAuthor(Author author)
         {
+            Log.Info("Updating author.");
             using (var context = new LibraryContext())
             {
                 Author authorRef = context.Authors.Where(a => a.ID == author.ID).SingleOrDefault();
@@ -78,6 +91,20 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
                 {
                     throw new KeyNotFoundException();
                 }
+            }
+
+            Log.Info("Author successfully updated.");
+        }
+
+        /// <summary>Gets the author by name.</summary>
+        /// <param name="name">The name.</param>
+        /// <returns>a a</returns>
+        public Author GetAuthorByName(string name)
+        {
+            Log.Info("Getting author by name.");
+            using (var context = new LibraryContext())
+            {
+                return context.Authors.Where(author => author.Name.Equals(name)).SingleOrDefault();
             }
         }
     }

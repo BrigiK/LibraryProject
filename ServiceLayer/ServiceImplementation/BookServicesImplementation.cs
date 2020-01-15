@@ -98,5 +98,13 @@ namespace ServiceLayer.ServiceImplementation
         {
             this.bookDataServices.UpdateBook(book);
         }
+
+        /// <summary>Gets the books from author.</summary>
+        /// <param name="author">The author.</param>
+        /// <returns>a a</returns>
+        public ICollection<Book> GetBooksFromAuthor(Author author)
+        {
+            return this.bookDataServices.GetBooksFromAuthor(author);
+        }
     }
 }

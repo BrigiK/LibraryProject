@@ -58,5 +58,10 @@ namespace LibraryProject.DataLayer.DataMapper
         /// <param name="domain">The domain.</param>
         /// <returns>a a</returns>
         ICollection<Book> GetBooksFromDomain(Domain domain);
+
+        /// <summary>Gets the books by author.</summary>
+        /// <param name="author">The author.</param>
+        /// <returns>a a</returns>
+        ICollection<Book> GetBooksFromAuthor(Author author);
     }
 }

@@ -34,5 +34,10 @@ namespace ServiceLayer
         /// <summary>Adds the author.</summary>
         /// <param name="author">The author.</param>
         void AddAuthor(Author author);
+
+        /// <summary>Gets the author by name.</summary>
+        /// <param name="name">The name.</param>
+        /// <returns>a a</returns>
+        Author GetAuthorByName(string name);
     }
 }

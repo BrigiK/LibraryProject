@@ -12,25 +12,33 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
     using System.Threading.Tasks;
     using LibraryProject.DataMapper;
     using LibraryProject.DomainModel;
+    using log4net;
 
     /// <summary>SQL Edition Data Service.</summary>
     public class SQLEditionDataService : IEditionDataService
     {
+        /// <summary>The logger instance.</summary>
+        private static readonly ILog Log = LogManager.GetLogger(typeof(SQLEditionDataService));
+
         /// <summary>Adds the edition.</summary>
         /// <param name="edition">The edition.</param>
         public void AddEdition(Edition edition)
         {
+            Log.Info("Add new edition.");
             using (var context = new LibraryContext())
             {
                 context.Editions.Add(edition);
                 context.SaveChanges();
             }
+
+            Log.Info("New edition successfully added.");
         }
 
         /// <summary>Deletes the edition.</summary>
         /// <param name="edition">The edition.</param>
         public void DeleteEdition(Edition edition)
         {
+            Log.Info("Delete edition for book " + edition.Book.Title);
             using (var context = new LibraryContext())
             {
                 var newEdition = new Edition { ID = edition.ID };
@@ -38,12 +46,15 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
                 context.Editions.Remove(newEdition);
                 context.SaveChanges();
             }
+
+            Log.Info("Edition successfully deleted for book " + edition.Book.Title);
         }
 
         /// <summary>Gets all editions.</summary>
         /// <returns>a a</returns>
         public IList<Edition> GetAllEditions()
         {
+            Log.Info("Getting all editions.");
             using (var context = new LibraryContext())
             {
                 return context.Editions.Select(edition => edition).ToList();
@@ -55,6 +66,7 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
         /// <returns>a a</returns>
         public Edition GetEditionById(int id)
         {
+            Log.Info("Getting edition by id.");
             using (var context = new LibraryContext())
             {
                 return context.Editions.Where(edition => edition.ID == id).SingleOrDefault();
@@ -66,6 +78,7 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
         /// <exception cref="System.Collections.Generic.KeyNotFoundException">e e</exception>
         public void UpdateEdition(Edition edition)
         {
+            Log.Info("Updating edition.");
             using (var context = new LibraryContext())
             {
                 Edition editionRef = context.Editions.Where(e => e.ID == edition.ID).SingleOrDefault();
@@ -79,6 +92,8 @@ namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
                     throw new KeyNotFoundException();
                 }
             }
+
+            Log.Info("Edition successfully updated.");
         }
     }
 }
