@@ -42,6 +42,7 @@ namespace ServiceLayerTests
             Assert.IsTrue(authorServices != null);
         }
 
+        /// <summary>Tests the author has data service with no argument.</summary>
         [TestMethod]
         public void TestAuthorHasDataServiceWithNoArgument()
         {

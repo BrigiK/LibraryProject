@@ -6,13 +6,13 @@
 namespace ServiceLayerTests
 {
     using System;
-    using System.Text;
     using System.Collections.Generic;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using System.Text;
     using LibraryProject.DataLayer.DataMapper;
-    using ServiceLayer.ServiceImplementation;
-    using Rhino.Mocks;
     using LibraryProject.DomainModel;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Rhino.Mocks;
+    using ServiceLayer.ServiceImplementation;
 
     /// <summary>
     /// Edition Service Tests class.
@@ -20,8 +20,10 @@ namespace ServiceLayerTests
     [TestClass]
     public class EditionServiceTests
     {
+        /// <summary>The edition data services</summary>
         private IEditionDataService editionDataServices;
-        
+
+        /// <summary>The edition services</summary>
         private EditionServicesImplementation editionServices;
 
         /// <summary>Sets up.</summary>

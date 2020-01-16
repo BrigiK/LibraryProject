@@ -50,6 +50,7 @@ namespace ServiceLayer.ServiceImplementation
 
         /// <summary>Gets the author by identifier.</summary>
         /// <param name="id">The identifier.</param>
+        /// <returns>a a</returns>
         public Author GetAuthorById(int id)
         {
             return this.authorDataService.GetAuthorById(id);

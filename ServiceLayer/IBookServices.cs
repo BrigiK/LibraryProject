@@ -30,7 +30,8 @@ namespace ServiceLayer
         /// Adds the book.
         /// </summary>
         /// <param name="book">The book.</param>
-        void AddBook(Book book);
+        /// <returns>a a</returns>
+        bool AddBook(Book book);
 
         /// <summary>
         /// Deletes the book.

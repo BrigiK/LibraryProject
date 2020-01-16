@@ -6,13 +6,13 @@
 namespace ServiceLayerTests
 {
     using System;
-    using System.Text;
     using System.Collections.Generic;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using System.Text;
     using LibraryProject.DataLayer.DataMapper;
-    using ServiceLayer.ServiceImplementation;
-    using Rhino.Mocks;
     using LibraryProject.DomainModel;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Rhino.Mocks;
+    using ServiceLayer.ServiceImplementation;
 
     /// <summary>
     /// Configuration Service Tests class.
@@ -26,6 +26,7 @@ namespace ServiceLayerTests
         /// <summary>The configuration services</summary>
         private ConfigurationServiceImplementation configurationServices;
 
+        /// <summary>Sets up.</summary>
         [TestInitialize]
         public void SetUp()
         {

@@ -6,13 +6,13 @@
 namespace ServiceLayerTests
 {
     using System;
-    using System.Text;
     using System.Collections.Generic;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using System.Text;
     using LibraryProject.DataLayer.DataMapper;
-    using ServiceLayer.ServiceImplementation;
-    using Rhino.Mocks;
     using LibraryProject.DomainModel;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Rhino.Mocks;
+    using ServiceLayer.ServiceImplementation;
 
     /// <summary>
     /// Book Service Tests class.
@@ -89,6 +89,38 @@ namespace ServiceLayerTests
             bookServices.AddBook(book);
 
             bookDataServices.VerifyAllExpectations();
+        }
+
+        /// <summary>Tests the book add without domain.</summary>
+        [TestMethod]
+        public void TestBookAddWithoutDomain()
+        {
+            Book book = new Book()
+            {
+                Domains = new List<Domain>(),
+                Authors = new List<Author> { new Author { Name = "Robert J. Morgan" } },
+                Editions = new List<Edition> { new Edition { PublisherName = "First Edition", Year = 2006, Number = 1, Type = "Paperback", NumberOfPages = 544, NumberOfCopies = 4, NumberOfLectureRoomCopies = 1 } }
+            };
+
+            bookDataServices.Stub(dao => dao.AddBook(book));
+
+            Assert.AreEqual(false, bookServices.AddBook(book));
+        }
+
+        /// <summary>Tests the book add without author.</summary>
+        [TestMethod]
+        public void TestBookAddWithoutAuthor()
+        {
+            Book book = new Book()
+            {
+                Domains = new List<Domain> { new Domain { Name = "Painting" } },
+                Authors = new List<Author>(),
+                Editions = new List<Edition> { new Edition { PublisherName = "First Edition", Year = 2006, Number = 1, Type = "Paperback", NumberOfPages = 544, NumberOfCopies = 4, NumberOfLectureRoomCopies = 1 } }
+            };
+
+            bookDataServices.Stub(dao => dao.AddBook(book));
+
+            Assert.AreEqual(false, bookServices.AddBook(book));
         }
 
         /// <summary>Tests the book delete.</summary>

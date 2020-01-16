@@ -33,7 +33,8 @@ namespace ServiceLayer.ServiceImplementation
 
         /// <summary>Adds the reader.</summary>
         /// <param name="reader">The reader.</param>
-        public void AddReader(Reader reader)
+        /// <returns>a a</returns>
+        public bool AddReader(Reader reader)
         {
             if (!reader.Name.Equals(string.Empty) &&
                 !reader.Username.Equals(string.Empty) &&
@@ -41,7 +42,10 @@ namespace ServiceLayer.ServiceImplementation
                 !reader.Email.Equals(string.Empty))
             {
                 this.readerDataService.AddReader(reader);
+                return true;
             }
+
+            return false;
         }
 
         /// <summary>Deletes the reader.</summary>
@@ -89,56 +93,12 @@ namespace ServiceLayer.ServiceImplementation
             this.readerDataService.BorrowBooks(reader, editions);
         }
 
-        /// <summary>Determines whether this instance [can borrow book] the specified book.</summary>
-        /// <param name="reader">The reader.</param>
-        /// <param name="edition">The edition.</param>
-        /// <returns>
-        /// <c>true</c> if this instance [can borrow book] the specified book; otherwise, <c>false</c>.</returns>
-        public bool CanBorrowBook(Reader reader, Edition edition)
-        {
-            return this.readerDataService.CanBorrowBook(reader, edition);
-        }
-
         /// <summary>Gives the back book.</summary>
         /// <param name="reader">The reader.</param>
         /// <param name="edition">The edition.</param>
         public void GiveBackBook(Reader reader, Edition edition)
         {
             this.readerDataService.GiveBackBook(reader, edition);
-        }
-
-        /// <summary>Ten percent more books remaining.</summary>
-        /// <param name="edition">The edition.</param>
-        /// <returns>a a</returns>
-        public bool TenPercentMoreBooksRemaining(Edition edition)
-        {
-            return this.readerDataService.TenPercentMoreBooksRemaining(edition);
-        }
-
-        /// <summary>Determines whether [has fewer than NMC books borrowed] [the specified reader].</summary>
-        /// <param name="reader">The reader.</param>
-        /// <returns>
-        /// <c>true</c> if [has fewer than NMC books borrowed] [the specified reader]; otherwise, <c>false</c>.</returns>
-        public bool HasFewerThanNMCBooksBorrowed(Reader reader)
-        {
-            return this.readerDataService.HasFewerThanNMCBooksBorrowed(reader);
-        }
-
-        /// <summary>Called when [borrow more than three books minimum two different domains].</summary>
-        /// <param name="editions">The editions.</param>
-        /// <returns>a a</returns>
-        public bool OnBorrowMoreThanThreeBooksMinTwoDiffDomains(List<Edition> editions)
-        {
-            return this.readerDataService.OnBorrowMoreThanThreeBooksMinTwoDiffDomains(editions);
-        }
-
-        /// <summary>Determines whether this instance [can borrow more than d books from same domain] the specified domain.</summary>
-        /// <param name="editions">The editions.</param>
-        /// <returns>
-        /// <c>true</c> if this instance [can borrow more than d books from same domain] the specified domain; otherwise, <c>false</c>.</returns>
-        public bool MoreThanDBooksFromSameDomain(List<Edition> editions)
-        {
-            return this.readerDataService.MoreThanDBooksFromSameDomain(editions);
         }
     }
 }

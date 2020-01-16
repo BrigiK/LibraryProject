@@ -42,7 +42,8 @@ namespace ServiceLayer.ServiceImplementation
 
         /// <summary>Adds the book.</summary>
         /// <param name="book">The book.</param>
-        public void AddBook(Book book)
+        /// <returns>a a</returns>
+        public bool AddBook(Book book)
         {
             if (book.Domains.Count > 0 && 
                 !this.BookDomainContainsParentDomain(book) && 
@@ -51,7 +52,10 @@ namespace ServiceLayer.ServiceImplementation
                 book.Editions.Count > 0)
             {
                 this.bookDataServices.AddBook(book);
+                return true;
             }
+
+            return false;
         }
 
         /// <summary>Books has only DOM domains.</summary>

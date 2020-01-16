@@ -3851,3 +3851,773 @@
 2020-01-16 09:07:13,595 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
 2020-01-16 09:07:13,595 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
 2020-01-16 09:07:13,667 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 09:25:27,182 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:25:27,420 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:30,699 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 09:25:30,912 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:25:30,912 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 09:25:30,948 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:25:30,948 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 09:25:30,996 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:25:30,997 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 09:25:31,091 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:25:31,091 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 09:25:31,166 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:25:31,167 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 09:25:31,184 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:25:31,835 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 09:25:31,835 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:31,851 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 09:25:31,854 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:25:31,854 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:31,860 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:25:31,860 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:31,868 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:25:31,868 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:31,875 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 09:25:31,875 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:31,897 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 09:25:31,898 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:25:31,899 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:31,904 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:25:31,904 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:31,909 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 09:25:31,909 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,026 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 09:25:32,028 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:25:32,029 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:25:32,029 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,041 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 09:25:32,042 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:25:32,042 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:25:32,042 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,049 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 09:25:32,049 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:25:32,049 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:25:32,050 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,054 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 09:25:32,056 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:25:32,056 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:25:32,057 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,061 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:25:32,062 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,088 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 09:25:32,088 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,093 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 09:25:32,093 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 09:25:32,093 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:25:32,094 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,098 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:25:32,098 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,106 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 09:25:32,107 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,111 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 09:25:32,122 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 09:25:32,122 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,183 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 09:25:32,248 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 09:25:32,248 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,254 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 09:25:32,263 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 09:25:32,263 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,268 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 09:25:32,268 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 09:25:32,269 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 09:25:32,271 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 09:25:32,271 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,292 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 09:25:32,292 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:25:32,312 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 09:30:02,694 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:30:03,121 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:06,975 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 09:30:07,209 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:30:07,210 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 09:30:07,243 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:30:07,243 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 09:30:07,299 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:30:07,300 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 09:30:07,404 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:30:07,405 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 09:30:07,624 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:30:07,624 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 09:30:07,648 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:30:08,369 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:30:08,369 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:08,377 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:30:08,377 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:08,386 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 09:30:08,388 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:08,417 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 09:30:08,664 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:30:08,827 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:30:08,829 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:30:08,829 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:08,886 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 09:30:08,897 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:30:08,897 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:08,904 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:30:08,904 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:08,909 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 09:30:08,909 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,034 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 09:30:09,127 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:30:09,127 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:30:09,128 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,185 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 09:30:09,257 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:30:09,257 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,266 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:30:09,266 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,295 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 09:30:09,295 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,303 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 09:30:09,316 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 09:30:09,316 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,324 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 09:30:09,335 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 09:30:09,335 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,340 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 09:30:09,351 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 09:30:09,351 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,356 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 09:30:09,356 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 09:30:09,407 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 09:30:09,408 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,472 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 09:30:09,472 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,492 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 09:30:09,495 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:30:09,496 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:30:09,496 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,502 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 09:30:09,548 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:30:09,549 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,556 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:30:09,556 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,567 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 09:30:09,568 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,573 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 09:30:09,574 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 09:30:09,604 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:30:09,604 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,652 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 09:30:09,652 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:30:09,658 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 09:30:09,662 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 09:50:53,346 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:50:53,758 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:57,638 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 09:50:57,876 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:50:57,877 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 09:50:57,930 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:50:57,930 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 09:50:57,985 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:50:57,986 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 09:50:58,040 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:50:58,042 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 09:50:58,080 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:50:58,081 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 09:50:58,159 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:50:58,927 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:50:58,927 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:58,934 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:50:58,934 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:58,944 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 09:50:58,944 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:58,975 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 09:50:59,248 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:50:59,402 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:50:59,405 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:50:59,405 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,463 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 09:50:59,475 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:50:59,476 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,483 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:50:59,483 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,489 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 09:50:59,489 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,605 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 09:50:59,699 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:50:59,700 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:50:59,700 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,756 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 09:50:59,824 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:50:59,825 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,833 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:50:59,834 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,867 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 09:50:59,868 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,877 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 09:50:59,888 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 09:50:59,889 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,900 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 09:50:59,909 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 09:50:59,909 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,913 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 09:50:59,920 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 09:50:59,920 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:50:59,924 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 09:50:59,924 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 09:50:59,983 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 09:50:59,983 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:51:00,100 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 09:51:00,101 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:51:00,136 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 09:51:00,141 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:51:00,141 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:51:00,141 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:51:00,157 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 09:51:00,266 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:51:00,266 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:51:00,357 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:51:00,358 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:51:00,383 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 09:51:00,383 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:51:00,397 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 09:51:00,398 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 09:51:00,467 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:51:00,468 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:51:00,554 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 09:51:00,554 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:51:00,561 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 09:51:00,566 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 09:53:20,426 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:53:20,668 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:23,929 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 09:53:24,147 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:53:24,147 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 09:53:24,182 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:53:24,182 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 09:53:24,239 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:53:24,240 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 09:53:24,331 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:53:24,331 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 09:53:24,405 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:53:24,405 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 09:53:24,419 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:53:25,075 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 09:53:25,076 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,095 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 09:53:25,096 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:53:25,096 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,102 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:53:25,102 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,107 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:53:25,107 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,117 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 09:53:25,118 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,142 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 09:53:25,142 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:53:25,143 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,147 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:53:25,147 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,152 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 09:53:25,152 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,267 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 09:53:25,268 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:53:25,269 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:53:25,270 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,282 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 09:53:25,282 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:53:25,283 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:53:25,283 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,291 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 09:53:25,292 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:53:25,292 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:53:25,293 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,298 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 09:53:25,299 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:53:25,299 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:53:25,299 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,305 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:53:25,305 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,333 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 09:53:25,333 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,337 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 09:53:25,337 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 09:53:25,338 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:53:25,338 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,343 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:53:25,343 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,349 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 09:53:25,350 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,354 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 09:53:25,363 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 09:53:25,363 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,424 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 09:53:25,435 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 09:53:25,436 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,497 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 09:53:25,507 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 09:53:25,508 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,511 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 09:53:25,512 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 09:53:25,513 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 09:53:25,515 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 09:53:25,516 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,536 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 09:53:25,536 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:53:25,606 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 09:53:56,702 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:53:57,028 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:00,778 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 09:54:01,007 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:54:01,009 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 09:54:01,064 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:54:01,064 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 09:54:01,130 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:54:01,131 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 09:54:01,182 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:54:01,183 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 09:54:01,219 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:54:01,219 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 09:54:01,231 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 09:54:01,980 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:54:01,981 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:01,988 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:54:01,989 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:01,998 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 09:54:01,999 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,031 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 09:54:02,293 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:54:02,446 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:54:02,448 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:54:02,449 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,510 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 09:54:02,522 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:54:02,523 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,531 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:54:02,531 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,542 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 09:54:02,543 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,653 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 09:54:02,750 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:54:02,751 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:54:02,751 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,804 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 09:54:02,873 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:54:02,874 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,880 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:54:02,880 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,911 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 09:54:02,911 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,920 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 09:54:02,930 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 09:54:02,930 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,935 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 09:54:02,944 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 09:54:02,944 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,949 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 09:54:02,956 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 09:54:02,957 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:02,960 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 09:54:02,960 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 09:54:03,020 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 09:54:03,021 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:03,097 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 09:54:03,097 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:03,115 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 09:54:03,119 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 09:54:03,119 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 09:54:03,120 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:03,126 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 09:54:03,178 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:54:03,178 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:03,188 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 09:54:03,188 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:03,199 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 09:54:03,199 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:03,204 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 09:54:03,205 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 09:54:03,235 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 09:54:03,236 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:03,292 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 09:54:03,293 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 09:54:03,358 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 09:54:03,363 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 10:05:03,062 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:05:03,332 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:06,702 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 10:05:06,917 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:05:06,918 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 10:05:06,952 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:05:06,953 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 10:05:07,019 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:05:07,020 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 10:05:07,061 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:05:07,062 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 10:05:07,098 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:05:07,098 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 10:05:07,110 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:05:07,766 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:05:07,766 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:07,772 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:05:07,772 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:07,779 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 10:05:07,780 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:07,802 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 10:05:07,993 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:05:08,129 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:05:08,130 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:05:08,131 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,194 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 10:05:08,197 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:05:08,197 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,206 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:05:08,206 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,210 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 10:05:08,210 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,329 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 10:05:08,397 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:05:08,397 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:05:08,398 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,403 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 10:05:08,452 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:05:08,452 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,515 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:05:08,515 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,548 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 10:05:08,548 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,558 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 10:05:08,567 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 10:05:08,567 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,582 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 10:05:08,590 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 10:05:08,590 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,594 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 10:05:08,601 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 10:05:08,602 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,607 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 10:05:08,607 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 10:05:08,688 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 10:05:08,688 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,749 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 10:05:08,749 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,765 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 10:05:08,766 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:05:08,766 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:05:08,767 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,772 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 10:05:08,810 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:05:08,811 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,819 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:05:08,819 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,829 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 10:05:08,829 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,833 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 10:05:08,834 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 10:05:08,850 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:05:08,851 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,902 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 10:05:08,903 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:05:08,908 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 10:05:08,913 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 10:13:18,115 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:13:18,362 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:21,656 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 10:13:21,871 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:13:21,871 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 10:13:21,905 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:13:21,905 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 10:13:21,960 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:13:21,960 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 10:13:22,065 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:13:22,065 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 10:13:22,094 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:13:22,094 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 10:13:22,110 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:13:22,769 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 10:13:22,769 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,786 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 10:13:22,786 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:13:22,787 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,793 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:13:22,794 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,798 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:13:22,798 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,807 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 10:13:22,808 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,830 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 10:13:22,830 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:13:22,830 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,835 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:13:22,835 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,840 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 10:13:22,840 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,959 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 10:13:22,960 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:13:22,962 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:13:22,962 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,974 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 10:13:22,975 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:13:22,976 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:13:22,976 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,985 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 10:13:22,985 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:13:22,986 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:13:22,986 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,990 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 10:13:22,991 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:13:22,992 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:13:22,992 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:22,998 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:13:22,998 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:23,028 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 10:13:23,028 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:23,034 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 10:13:23,034 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 10:13:23,035 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:13:23,035 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:23,039 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:13:23,039 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:23,049 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 10:13:23,049 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:23,053 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 10:13:23,198 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 10:13:23,199 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:23,205 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 10:13:23,215 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 10:13:23,215 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:23,218 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 10:13:23,225 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 10:13:23,225 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:23,229 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 10:13:23,229 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 10:13:23,230 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 10:13:23,232 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 10:13:23,232 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:23,316 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 10:13:23,316 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:13:23,394 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 10:19:26,635 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:26,895 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:30,310 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 10:19:30,524 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:30,524 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 10:19:30,558 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:30,558 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 10:19:30,611 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:30,611 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 10:19:30,722 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:30,722 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 10:19:30,751 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:30,752 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 10:19:30,765 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:31,461 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 10:19:31,461 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,478 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 10:19:31,479 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:31,479 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,486 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:31,486 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,495 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:31,496 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,501 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 10:19:31,502 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,526 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 10:19:31,526 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:31,527 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,531 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:31,531 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,536 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 10:19:31,536 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,650 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 10:19:31,651 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:19:31,651 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:19:31,651 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,664 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 10:19:31,665 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:19:31,666 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:19:31,666 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,674 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 10:19:31,675 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:19:31,675 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:19:31,675 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,679 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 10:19:31,681 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:19:31,682 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:31,682 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,686 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:19:31,686 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,719 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 10:19:31,720 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,725 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 10:19:31,725 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 10:19:31,725 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:31,726 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,731 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:19:31,731 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,740 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 10:19:31,740 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,745 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 10:19:31,826 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 10:19:31,827 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,832 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 10:19:31,899 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 10:19:31,901 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,908 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 10:19:31,916 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 10:19:31,916 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:31,980 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 10:19:31,980 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 10:19:31,982 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 10:19:31,985 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 10:19:31,985 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:32,003 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 10:19:32,003 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:32,020 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 10:19:43,487 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:43,856 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:47,673 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 10:19:47,899 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:47,902 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 10:19:47,958 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:47,959 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 10:19:48,017 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:48,018 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 10:19:48,064 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:48,065 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 10:19:48,205 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:48,205 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 10:19:48,220 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:19:48,919 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:48,919 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:48,927 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:48,927 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:48,936 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 10:19:48,937 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:48,969 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 10:19:49,236 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:19:49,392 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:19:49,394 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:19:49,394 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,463 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 10:19:49,474 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:49,475 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,483 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:49,483 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,495 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 10:19:49,496 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,609 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 10:19:49,700 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:19:49,700 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:19:49,700 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,754 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 10:19:49,820 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:49,820 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,829 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:19:49,829 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,861 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 10:19:49,861 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,870 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 10:19:49,880 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 10:19:49,881 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,893 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 10:19:49,904 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 10:19:49,904 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,908 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 10:19:49,917 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 10:19:49,917 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:49,922 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 10:19:49,922 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 10:19:49,987 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 10:19:49,988 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:50,055 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 10:19:50,056 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:50,072 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 10:19:50,080 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:19:50,080 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:19:50,080 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:50,087 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 10:19:50,141 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:50,141 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:50,151 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:19:50,151 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:50,231 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 10:19:50,231 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:50,237 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 10:19:50,237 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 10:19:50,266 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:19:50,267 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:50,326 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 10:19:50,327 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:19:50,390 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 10:19:50,396 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 10:25:24,667 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:25:24,996 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:28,755 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to author entity.
+2020-01-16 10:25:28,983 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:25:28,984 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to edition entity.
+2020-01-16 10:25:29,037 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:25:29,037 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to domain entity.
+2020-01-16 10:25:29,100 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:25:29,100 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to book entity.
+2020-01-16 10:25:29,151 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:25:29,152 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to reader entity.
+2020-01-16 10:25:29,187 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:25:29,188 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Adding data to configuration entity.
+2020-01-16 10:25:29,200 [12] INFO  LibraryProject.DataMapper.LibraryInitializer [(null)] – Data successfully added to database.
+2020-01-16 10:25:29,969 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:25:29,969 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:29,976 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:25:29,976 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:29,985 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 10:25:29,986 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,019 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain also contains parent domain.
+2020-01-16 10:25:30,275 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:25:30,442 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:25:30,444 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:25:30,445 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,504 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 10:25:30,516 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:25:30,517 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,523 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:25:30,526 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,535 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book domain also contains parent domain.
+2020-01-16 10:25:30,535 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,649 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book domain not contains parent domain.
+2020-01-16 10:25:30,743 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:25:30,744 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:25:30,744 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,793 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has more than DOM domains.
+2020-01-16 10:25:30,861 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:25:30,862 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,871 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:25:30,871 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,901 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Kids
+2020-01-16 10:25:30,901 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,910 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Kids
+2020-01-16 10:25:30,920 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 10:25:30,920 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,926 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 10:25:30,934 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Cars & Trains
+2020-01-16 10:25:30,934 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,938 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Cars & Trains
+2020-01-16 10:25:30,948 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Fairy Tales
+2020-01-16 10:25:30,948 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:30,953 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Fairy Tales
+2020-01-16 10:25:30,953 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Kids
+2020-01-16 10:25:31,016 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLAuthorDataService [(null)] – Getting author by name.
+2020-01-16 10:25:31,017 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:31,089 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 
+2020-01-16 10:25:31,090 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:31,107 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from author Bert Bates
+2020-01-16 10:25:31,114 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Checking if book has only DOM domains.
+2020-01-16 10:25:31,114 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLConfigurationDataService [(null)] – Getting configuration MaxDOMBook
+2020-01-16 10:25:31,115 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:31,122 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Book has only DOM domains.
+2020-01-16 10:25:31,179 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:25:31,181 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:31,190 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from domain 
+2020-01-16 10:25:31,190 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:31,260 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Animals
+2020-01-16 10:25:31,261 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:31,267 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Animals
+2020-01-16 10:25:31,267 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Returning books from domain Animals
+2020-01-16 10:25:31,303 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting domain by name.
+2020-01-16 10:25:31,304 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:31,364 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Getting the child domains for domain Science & Math
+2020-01-16 10:25:31,364 [12] INFO  LibraryProject.DataMapper.LibraryContext [(null)] – Setting the initializer for the database.
+2020-01-16 10:25:31,429 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLDomainDataService [(null)] – Returning the child domains for domain Science & Math
+2020-01-16 10:25:31,439 [12] INFO  LibraryProject.DataLayer.DataMapper.SqlServerDAO.SQLBookDataService [(null)] – Getting books from author 

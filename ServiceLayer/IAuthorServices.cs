@@ -29,6 +29,7 @@ namespace ServiceLayer
 
         /// <summary>Gets the author by identifier.</summary>
         /// <param name="id">The identifier.</param>
+        /// <returns>a a</returns>
         Author GetAuthorById(int id);
 
         /// <summary>Adds the author.</summary>
