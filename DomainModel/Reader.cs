@@ -62,16 +62,5 @@ namespace LibraryProject.DomainModel
         /// <summary>Gets or sets the books.</summary>
         /// <value>The books.</value>
         public virtual ICollection<Book> Books { get; set; }
-
-        /// <summary>Validates the email exists.</summary>
-        /// <param name="validationResult">The validation result.</param>
-        [SelfValidation]
-        public void ValidateEmailExists(ValidationResults validationResult)
-        {
-            if (this.Email == null)
-            {
-                validationResult.AddResult(new Microsoft.Practices.EnterpriseLibrary.Validation.ValidationResult("Email must be set", this, "ValidateEmailExists", "error", null));
-            }
-        }
     }
 }

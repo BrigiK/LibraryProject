@@ -67,6 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AuthorServiceTests.cs" />
+    <Compile Include="BookServiceTests.cs" />
+    <Compile Include="ConfigurationServiceTests.cs" />
+    <Compile Include="DomainServiceTests.cs" />
+    <Compile Include="EditionServiceTests.cs" />
+    <Compile Include="ReaderServiceTests.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <ExcludeFromStyleCop>True</ExcludeFromStyleCop>

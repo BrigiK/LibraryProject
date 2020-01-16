@@ -3,7 +3,7 @@
 //     Author Kocs Brigitta.
 // </copyright>
 //-----------------------------------------------------------------------
-namespace LibraryProject.DataLayer.DataMapper.SqlServerDAO
+namespace LibraryProject.DataLayer.DataMapper
 {
     using System;
     using System.Collections.Generic;

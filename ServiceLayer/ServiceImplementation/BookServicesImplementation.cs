@@ -45,7 +45,7 @@ namespace ServiceLayer.ServiceImplementation
         public void AddBook(Book book)
         {
             if (book.Domains.Count > 0 && 
-                this.BookDomainContainsParentDomain(book) && 
+                !this.BookDomainContainsParentDomain(book) && 
                 this.BookHasOnlyDOMDomains(book) && 
                 book.Authors.Count > 0  && 
                 book.Editions.Count > 0)
